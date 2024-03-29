@@ -1,0 +1,55 @@
+import { Callout, Steps, Step } from "nextra-theme-docs";
+
+# Camera Modification
+
+The Zygo interferometer used in this demonstration is an older model that originally came with a low-resolution black and white camera. To take advantage of modern technology and capture high-resolution interferograms, we replaced the original camera with an IP camera.
+
+## Choosing the Right Camera
+
+When selecting a camera for interferometry, consider the following factors:
+
+- **Resolution**: A higher resolution camera will allow you to capture more detailed interferograms and perform more accurate wavefront analysis.
+- **Housing and mounting**: A housed camera with a standard mount (e.g., C-mount) will make it easier to attach various lenses and integrate the camera into the interferometer.
+- **Connectivity**: An IP camera with Ethernet connectivity simplifies the process of capturing and transferring images to a computer for analysis.
+
+<Callout type="info">
+In this example, we used an IDS Ethernet camera, but any camera that meets the above criteria can be used.
+</Callout>
+
+## Modifying the Interferometer
+
+To install the new camera, follow these steps:
+
+<Steps>
+### Step 1: Remove the old camera
+
+Remove the original camera and lens from the interferometer. In the Zygo interferometer, the camera is located in the upper compartment.
+
+### Step 2: Install a 45-degree mirror
+
+Make a bracket to hold a first-surface mirror at a 45-degree angle. This mirror will redirect the vertical beam from the interferometer to a horizontal path, allowing the new camera to capture the interferograms.
+
+### Step 3: Mount the new camera
+
+Position the new camera to capture the horizontal beam from the 45-degree mirror. Ensure that the camera is securely mounted and aligned with the beam path.
+
+### Step 4: Select an appropriate lens
+
+Choose a lens that allows the camera to capture the full field of the interferometer while covering a large area of the camera sensor. In this example, a compact 25mm C-mount lens was used.
+
+### Step 5: Connect and power the camera
+
+Connect the camera's Ethernet cable to a PC and power the camera using the 12V power supply available in the interferometer.
+
+### Step 6: Modify the interferometer housing
+
+Drill a hole in the interferometer housing to route the camera's Ethernet cable to an external connector. Use a two-sided female UTP connector to allow easy connection to the camera and PC.
+</Steps>
+
+With the new camera installed, you can now capture high-resolution interferograms for detailed wavefront analysis using [DFT Fringe software](/optical-interferometry-part-2/dft-fringe-software).
+
+<Callout type="info">
+The original alignment camera can be left in place, as it is still useful for aligning optics before capturing interferograms with the high-resolution camera.
+</Callout>
+
+By upgrading the camera in your interferometer, you can take advantage of modern technology to improve the accuracy and resolution of your optical measurements.

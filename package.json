@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "@types/node": "^20.11.30",
+    "next": "^14.1.4",
+    "nextra": "^2.13.4",
+    "nextra-theme-docs": "^2.13.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.4.3"
+  },
+  "name": "Optical-with-lumentis",
+  "description": "This two-part video series provides an in-depth look at optical interferometry. Part 1 covers the principles behind interferometry and the layout of a ZYGO GPI LC interferometer from the 1990s. Part 2 demonstrates how to use the interferometer to accurately measure the surface shapes and optical properties of mirrors, lenses, and microscope objectives.",
+  "version": "0.0.1",
+  "scripts": {
+    "devstart": "next dev -p 5656 & node start.js",
+    "dev": "next dev -p 5656",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [
+    "Optical interferometry",
+    "Zygo interferometer",
+    "Wavefront analysis",
+    "Monochromatic light",
+    "Coherence length",
+    "Camera modification",
+    "DFT Fringe software",
+    "Optical surface testing",
+    "Lens aberrations",
+    "Microscope objectives"
+  ]
+}

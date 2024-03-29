@@ -1,0 +1,61 @@
+import { Callout, Steps, Step } from "nextra-theme-docs";
+
+# DFT Fringe Software
+
+DFT Fringe is a free software designed to make advanced interferometry accessible to a wider audience. While initially developed with amateur telescoping in mind, its application range extends far beyond that. The software allows users to evaluate interferograms and create detailed wavefront maps, making it an essential tool for anyone working with optical interferometry.
+
+## Features
+
+DFT Fringe offers a range of features that simplify the process of analyzing interferograms:
+
+- 2D Fourier transform on selected areas of the interferogram
+- Low-frequency spatial filtering to remove global intensity variations
+- Resampling of the image to a specific size for wavefront calculation
+- Fitting the wavefront data to known aberrations
+- Customizable presentation of results, including scale and units (e.g., nanometers instead of waves)
+
+<Callout>
+By allowing users to include or exclude specific aberrations, such as tilt, from the analysis, DFT Fringe enables a more focused evaluation of the wavefront data.
+</Callout>
+
+## Using DFT Fringe
+
+To get started with DFT Fringe, follow these steps:
+
+<Steps>
+
+### Step 1: Input settings
+
+Before evaluating interferograms, the software requires input settings such as the wavelength used and the fringe spacing in the interferogram. In some configurations, each fringe represents one wavelength of phase shift, while in others, like auto-collimation, this value needs to be set to 0.5.
+
+### Step 2: Import and select area
+
+Import the recorded interferogram into DFT Fringe and define the areas you wish to include or exclude in the wavefront evaluation.
+
+### Step 3: Fourier transform and filtering
+
+The software performs a 2D Fourier transform on the selected area and allows for low-frequency spatial filtering to remove global intensity variations due to uneven illumination.
+
+### Step 4: Resampling and wavefront calculation
+
+The filtered image is resampled to a specific size, and the software calculates the wavefront data from this resampled image.
+
+### Step 5: Aberration fitting and presentation
+
+DFT Fringe fits the wavefront data to a set of known aberrations. Users can choose to include or exclude specific aberrations, such as tilt, from the analysis. The presentation of the results can be customized, including scale and units (e.g., nanometers instead of waves).
+
+</Steps>
+
+## Strehl Ratio
+
+DFT Fringe prominently displays the value of the Strehl ratio, which is a useful parameter for specifying wavefront performance close to the diffraction limit. The Strehl ratio describes the ratio between where wave energy actually ends up in the image compared to where it should have ended up if the optic were perfect.
+
+$$\text{Strehl ratio} = \frac{\text{Actual peak intensity}}{\text{Theoretical peak intensity for a perfect optic}}$$
+
+A Strehl ratio above 0.8 is generally considered to be diffraction-limited, meaning that the dominant factor for reduced sharpness is diffraction due to a limited aperture rather than imperfections in the surface shape.
+
+For more information on using DFT Fringe to analyze interferograms from various optical components, see the following sections:
+
+- [Testing Optical Surfaces](/optical-interferometry-part-2/testing-optical-surfaces)
+- [Testing Camera Lenses](/optical-interferometry-part-2/testing-camera-lenses)
+- [Testing Microscope Objectives](/optical-interferometry-part-2/testing-microscope-objectives)

@@ -1,0 +1,5750 @@
+# Optical Interferometry Part 1 - Introduction & ZYGO GPI layout
+
+1
+00:00:02,100 --> 00:00:04,799
+hey everyone today I want to talk about
+
+2
+00:00:04,799 --> 00:00:07,740
+Optical interferometry a method that is
+
+3
+00:00:07,740 --> 00:00:09,000
+frequently used to measure the
+
+4
+00:00:09,000 --> 00:00:11,160
+properties of optical components and
+
+5
+00:00:11,160 --> 00:00:12,240
+systems
+
+6
+00:00:12,240 --> 00:00:14,460
+what initially made me want to do a
+
+7
+00:00:14,460 --> 00:00:16,619
+video about this subject is this zygo
+
+8
+00:00:16,619 --> 00:00:18,840
+interferometer that I bought a while ago
+
+9
+00:00:18,840 --> 00:00:19,980
+secondhand
+
+10
+00:00:19,980 --> 00:00:21,840
+a new instrument of this type is
+
+11
+00:00:21,840 --> 00:00:24,060
+financially far out of my reach and I
+
+12
+00:00:24,060 --> 00:00:25,680
+must admit that this one wasn't a
+
+13
+00:00:25,680 --> 00:00:28,320
+bargain either but the thing is I wanted
+
+14
+00:00:28,320 --> 00:00:30,359
+to own a high quality interferometer for
+
+15
+00:00:30,359 --> 00:00:32,940
+a long time if only to get away from the
+
+16
+00:00:32,940 --> 00:00:35,100
+do-it-yourself setups that I've used so
+
+17
+00:00:35,100 --> 00:00:37,320
+far and since these instruments are not
+
+18
+00:00:37,320 --> 00:00:39,719
+abundantly available secondhand I just
+
+19
+00:00:39,719 --> 00:00:42,239
+had to take this rare opportunity to buy
+
+20
+00:00:42,239 --> 00:00:43,920
+one
+
+21
+00:00:43,920 --> 00:00:45,840
+in case you have no idea what this
+
+22
+00:00:45,840 --> 00:00:47,820
+instrument is with it you can very
+
+23
+00:00:47,820 --> 00:00:51,000
+accurately measure the shape of flat and
+
+24
+00:00:51,000 --> 00:00:53,100
+spherical Optical interfaces like the
+
+25
+00:00:53,100 --> 00:00:55,559
+ones you find on lenses and mirrors and
+
+26
+00:00:55,559 --> 00:00:57,960
+with accurately I mean in the nanometer
+
+27
+00:00:57,960 --> 00:00:58,860
+range
+
+28
+00:00:58,860 --> 00:01:00,780
+but not only that you can also measure
+
+29
+00:01:00,780 --> 00:01:02,640
+the performance of complete Optical
+
+30
+00:01:02,640 --> 00:01:05,700
+systems so a good interferometer is an
+
+31
+00:01:05,700 --> 00:01:07,860
+indispensable tool for anyone involved
+
+32
+00:01:07,860 --> 00:01:10,020
+in Optical fabrication because in the
+
+33
+00:01:10,020 --> 00:01:12,540
+end the quality of your Optics is mainly
+
+34
+00:01:12,540 --> 00:01:15,119
+limited by the quality of your testing
+
+35
+00:01:15,119 --> 00:01:17,400
+methods
+
+36
+00:01:17,400 --> 00:01:19,439
+this particular instrument was produced
+
+37
+00:01:19,439 --> 00:01:23,580
+by zygo in August of 1996 it was sold to
+
+38
+00:01:23,580 --> 00:01:25,860
+Philips Electronics in Eindhoven where
+
+39
+00:01:25,860 --> 00:01:27,540
+it was used to check the surface shape
+
+40
+00:01:27,540 --> 00:01:30,299
+of lenses of special Optical disk drives
+
+41
+00:01:30,299 --> 00:01:32,759
+from what I understood some of these
+
+42
+00:01:32,759 --> 00:01:35,100
+lenses were produced from small polished
+
+43
+00:01:35,100 --> 00:01:37,200
+glass balls and these were cut in pieces
+
+44
+00:01:37,200 --> 00:01:38,880
+and then transformed into very short
+
+45
+00:01:38,880 --> 00:01:41,400
+focal distance lenses now at some point
+
+46
+00:01:41,400 --> 00:01:43,680
+the activity was transferred to a
+
+47
+00:01:43,680 --> 00:01:46,140
+Phillips spin-off called anterion and
+
+48
+00:01:46,140 --> 00:01:47,880
+the interferometer was sold to an
+
+49
+00:01:47,880 --> 00:01:50,040
+employee who basically stored it for a
+
+50
+00:01:50,040 --> 00:01:51,960
+couple of years he then sold it to me
+
+51
+00:01:51,960 --> 00:01:54,000
+together with a black and white Monitor
+
+52
+00:01:54,000 --> 00:01:56,340
+and the transmission sphere that was
+
+53
+00:01:56,340 --> 00:01:58,799
+used to test the lenses
+
+54
+00:01:58,799 --> 00:02:01,079
+in this video I'll first discuss the
+
+55
+00:02:01,079 --> 00:02:03,420
+principle behind interferometry and then
+
+56
+00:02:03,420 --> 00:02:04,979
+we'll take a look at the layout of the
+
+57
+00:02:04,979 --> 00:02:07,140
+instrument and how it works exactly and
+
+58
+00:02:07,140 --> 00:02:09,419
+in an upcoming video I'll show you how I
+
+59
+00:02:09,419 --> 00:02:11,038
+pimped the instrument a bit with a
+
+60
+00:02:11,038 --> 00:02:13,080
+modern CCD camera
+
+61
+00:02:13,080 --> 00:02:15,800
+as I said earlier in Optics manufacturer
+
+62
+00:02:15,800 --> 00:02:17,879
+interferometry is a frequently used
+
+63
+00:02:17,879 --> 00:02:20,040
+method to characterize both Optical
+
+64
+00:02:20,040 --> 00:02:22,800
+surfaces as well as complete systems and
+
+65
+00:02:22,800 --> 00:02:24,360
+the method is based on analyzing
+
+66
+00:02:24,360 --> 00:02:26,280
+interference patterns and extract
+
+67
+00:02:26,280 --> 00:02:28,319
+so-called wavefront information from
+
+68
+00:02:28,319 --> 00:02:30,239
+them and I will discuss the meaning of
+
+69
+00:02:30,239 --> 00:02:32,599
+the word wavefront in a second
+
+70
+00:02:32,599 --> 00:02:34,920
+interferometry is an extremely sensitive
+
+71
+00:02:34,920 --> 00:02:37,080
+and accurate method that can be used to
+
+72
+00:02:37,080 --> 00:02:38,819
+establish the general shape of an
+
+73
+00:02:38,819 --> 00:02:41,519
+interface but also things like waviness
+
+74
+00:02:41,519 --> 00:02:44,580
+or even surface roughness it does also
+
+75
+00:02:44,580 --> 00:02:46,800
+have some limitations the measurement
+
+76
+00:02:46,800 --> 00:02:49,620
+ranges generally fairly limited to
+
+77
+00:02:49,620 --> 00:02:52,800
+several microns also it's unsuitable for
+
+78
+00:02:52,800 --> 00:02:55,319
+interfaces that contain sharp step-like
+
+79
+00:02:55,319 --> 00:02:57,420
+height features because these cannot be
+
+80
+00:02:57,420 --> 00:03:00,060
+unambiguously identified and so in
+
+81
+00:03:00,060 --> 00:03:02,519
+general interferometry is most accurate
+
+82
+00:03:02,519 --> 00:03:04,920
+when the surfaces we want to test are
+
+83
+00:03:04,920 --> 00:03:06,420
+fairly smooth
+
+84
+00:03:06,420 --> 00:03:08,879
+now I just mentioned the word wavefront
+
+85
+00:03:08,879 --> 00:03:12,000
+which I think is not a trivial concept I
+
+86
+00:03:12,000 --> 00:03:13,800
+guess we've all experienced wavefronts
+
+87
+00:03:13,800 --> 00:03:16,140
+at some points in our lives but I'm not
+
+88
+00:03:16,140 --> 00:03:18,959
+referring to those in Optics away from
+
+89
+00:03:18,959 --> 00:03:21,060
+this actually a continuous set of points
+
+90
+00:03:21,060 --> 00:03:24,420
+that have identical phase so what does
+
+91
+00:03:24,420 --> 00:03:26,459
+that mean well from a classical
+
+92
+00:03:26,459 --> 00:03:29,099
+Viewpoint light is an electromagnetic
+
+93
+00:03:29,099 --> 00:03:30,959
+wave that harmonically oscillates and
+
+94
+00:03:30,959 --> 00:03:33,780
+propagates in space and at any given
+
+95
+00:03:33,780 --> 00:03:36,180
+point in this process the electric and
+
+96
+00:03:36,180 --> 00:03:37,739
+magnetic field components can be
+
+97
+00:03:37,739 --> 00:03:39,780
+described by the Maxwell equations so
+
+98
+00:03:39,780 --> 00:03:41,760
+here I've tried to schematically draw
+
+99
+00:03:41,760 --> 00:03:44,220
+the electromagnetic field in a somewhat
+
+100
+00:03:44,220 --> 00:03:46,799
+larger volume and if you examine the
+
+101
+00:03:46,799 --> 00:03:48,959
+phase of these waves you can identify
+
+102
+00:03:48,959 --> 00:03:51,000
+planes where the face of the
+
+103
+00:03:51,000 --> 00:03:53,459
+electromagnetic field is identical and
+
+104
+00:03:53,459 --> 00:03:55,260
+the continuous set of points that have
+
+105
+00:03:55,260 --> 00:03:58,019
+the same phase value is called away
+
+106
+00:03:58,019 --> 00:04:00,180
+front
+
+107
+00:04:00,180 --> 00:04:02,760
+one property of a wavefront is that its
+
+108
+00:04:02,760 --> 00:04:04,680
+shape is always transverse or
+
+109
+00:04:04,680 --> 00:04:07,379
+perpendicular to the local direction of
+
+110
+00:04:07,379 --> 00:04:09,599
+wave propagation here this is
+
+111
+00:04:09,599 --> 00:04:11,400
+Illustrated for a few differently shaped
+
+112
+00:04:11,400 --> 00:04:14,040
+wavefronts where the arrows indicate the
+
+113
+00:04:14,040 --> 00:04:16,620
+direction of wave propagation now in
+
+114
+00:04:16,620 --> 00:04:18,540
+general phase relationships for
+
+115
+00:04:18,540 --> 00:04:20,760
+different points in space are only well
+
+116
+00:04:20,760 --> 00:04:23,160
+defined when the waves have one specific
+
+117
+00:04:23,160 --> 00:04:24,960
+wavelength and if we want to do
+
+118
+00:04:24,960 --> 00:04:27,540
+interferometry it's vital that the light
+
+119
+00:04:27,540 --> 00:04:30,240
+we use is of one particular wavelength
+
+120
+00:04:30,240 --> 00:04:32,460
+which is also called monochromatic light
+
+121
+00:04:32,460 --> 00:04:34,500
+and in the rest of this video I'll
+
+122
+00:04:34,500 --> 00:04:36,900
+assume that the light used is more or
+
+123
+00:04:36,900 --> 00:04:39,120
+less monochromatic
+
+124
+00:04:39,120 --> 00:04:41,460
+a frequently used way to generate
+
+125
+00:04:41,460 --> 00:04:43,680
+monochromatic radiation is by means of a
+
+126
+00:04:43,680 --> 00:04:46,020
+laser and this is because the process of
+
+127
+00:04:46,020 --> 00:04:48,419
+stimulated emission which takes place in
+
+128
+00:04:48,419 --> 00:04:50,820
+the laser cavity favors the generation
+
+129
+00:04:50,820 --> 00:04:53,820
+of light in a very narrow wavelength
+
+130
+00:04:53,820 --> 00:04:56,940
+range also the wavefront exiting the
+
+131
+00:04:56,940 --> 00:04:59,340
+laser cavity is virtually flat over the
+
+132
+00:04:59,340 --> 00:05:01,560
+aperture and because the light has an
+
+133
+00:05:01,560 --> 00:05:03,419
+extremely well defined wavelength in
+
+134
+00:05:03,419 --> 00:05:05,280
+other words it has a very narrow
+
+135
+00:05:05,280 --> 00:05:07,800
+spectral bandwidth phase relationships
+
+136
+00:05:07,800 --> 00:05:10,380
+in the field exiting the laser can be
+
+137
+00:05:10,380 --> 00:05:12,840
+preserved over long distances
+
+138
+00:05:12,840 --> 00:05:15,540
+another way to say this is that lasers
+
+139
+00:05:15,540 --> 00:05:17,940
+have a long coherence length which is
+
+140
+00:05:17,940 --> 00:05:20,220
+generally between half a meter up to
+
+141
+00:05:20,220 --> 00:05:22,860
+several kilometers for certain special
+
+142
+00:05:22,860 --> 00:05:25,080
+types of lasers
+
+143
+00:05:25,080 --> 00:05:26,940
+in practice this means that if we take
+
+144
+00:05:26,940 --> 00:05:29,699
+two points A and B in the light path and
+
+145
+00:05:29,699 --> 00:05:31,979
+we look at the variations in the phase
+
+146
+00:05:31,979 --> 00:05:33,900
+difference between the two points we
+
+147
+00:05:33,900 --> 00:05:36,120
+will find that these will be relatively
+
+148
+00:05:36,120 --> 00:05:38,340
+small and the distance over which
+
+149
+00:05:38,340 --> 00:05:41,039
+variations in Phase remain acceptable is
+
+150
+00:05:41,039 --> 00:05:43,800
+called the coherence length as you can
+
+151
+00:05:43,800 --> 00:05:45,720
+see from this equation the coherence
+
+152
+00:05:45,720 --> 00:05:48,600
+length LC is inversely proportional to
+
+153
+00:05:48,600 --> 00:05:51,180
+the spectral bandwidth Delta Nu of the
+
+154
+00:05:51,180 --> 00:05:53,340
+light source and so light sources with a
+
+155
+00:05:53,340 --> 00:05:55,500
+very narrow emission line will generally
+
+156
+00:05:55,500 --> 00:05:58,500
+have a long coherence length
+
+157
+00:05:58,500 --> 00:06:00,360
+another source of monochromatic light
+
+158
+00:06:00,360 --> 00:06:02,820
+frequently used in interferometry is the
+
+159
+00:06:02,820 --> 00:06:04,979
+low pressure sodium lamp which mainly
+
+160
+00:06:04,979 --> 00:06:07,620
+generates light in a narrow emission
+
+161
+00:06:07,620 --> 00:06:11,220
+band at 589 nanometers however the
+
+162
+00:06:11,220 --> 00:06:12,720
+spectral bandwidth of the sodium
+
+163
+00:06:12,720 --> 00:06:14,699
+emission line is much broader than that
+
+164
+00:06:14,699 --> 00:06:16,919
+of lasers and the phase relationships
+
+165
+00:06:16,919 --> 00:06:19,199
+generally only hold over distances
+
+166
+00:06:19,199 --> 00:06:22,080
+smaller than a millimeter
+
+167
+00:06:22,080 --> 00:06:24,180
+now measuring the shape of a waveform
+
+168
+00:06:24,180 --> 00:06:26,460
+directly in the visible part of the
+
+169
+00:06:26,460 --> 00:06:28,860
+electromagnetic spectrum is not easy and
+
+170
+00:06:28,860 --> 00:06:31,020
+that is because of the high frequencies
+
+171
+00:06:31,020 --> 00:06:34,139
+involved for electromagnetic radiation
+
+172
+00:06:34,139 --> 00:06:36,180
+of longer wavelengths like for example
+
+173
+00:06:36,180 --> 00:06:38,819
+radio waves we can measure the phase of
+
+174
+00:06:38,819 --> 00:06:41,039
+the alternating Fields directly and that
+
+175
+00:06:41,039 --> 00:06:42,780
+is because the oscillations have
+
+176
+00:06:42,780 --> 00:06:45,060
+relatively low frequency say generally
+
+177
+00:06:45,060 --> 00:06:47,580
+somewhere in the mega or gigahertz range
+
+178
+00:06:47,580 --> 00:06:50,100
+and so we can point a bunch of antennas
+
+179
+00:06:50,100 --> 00:06:52,560
+to the sky measure the electromagnetic
+
+180
+00:06:52,560 --> 00:06:54,419
+signals that are received in each of
+
+181
+00:06:54,419 --> 00:06:56,699
+them and then establish the shape of the
+
+182
+00:06:56,699 --> 00:06:59,100
+wavefront for a particular frequency by
+
+183
+00:06:59,100 --> 00:07:01,979
+looking for phase correlations and based
+
+184
+00:07:01,979 --> 00:07:04,199
+on this information we can identify the
+
+185
+00:07:04,199 --> 00:07:06,060
+exact direction from which the radiation
+
+186
+00:07:06,060 --> 00:07:07,620
+is emitted
+
+187
+00:07:07,620 --> 00:07:09,720
+but the visible light has a frequency
+
+188
+00:07:09,720 --> 00:07:11,699
+more than a thousand times higher than
+
+189
+00:07:11,699 --> 00:07:14,340
+even the highest frequency radio waves
+
+190
+00:07:14,340 --> 00:07:16,440
+and for frequencies this high it's
+
+191
+00:07:16,440 --> 00:07:18,600
+technically infeasible to measure phase
+
+192
+00:07:18,600 --> 00:07:20,340
+directly for an oscillating
+
+193
+00:07:20,340 --> 00:07:22,979
+electromagnetic field
+
+194
+00:07:22,979 --> 00:07:25,560
+however what we can easily measure with
+
+195
+00:07:25,560 --> 00:07:27,960
+Optical detectors like CCD or CMOS
+
+196
+00:07:27,960 --> 00:07:31,080
+sensors is spatial intensity variations
+
+197
+00:07:31,080 --> 00:07:33,599
+and that is where interferometry comes
+
+198
+00:07:33,599 --> 00:07:35,940
+in instead of trying to measure the
+
+199
+00:07:35,940 --> 00:07:38,460
+phase in light directly this method
+
+200
+00:07:38,460 --> 00:07:40,380
+works by studying the interference
+
+201
+00:07:40,380 --> 00:07:42,960
+patterns resulting from the addition of
+
+202
+00:07:42,960 --> 00:07:45,300
+a second wavefront that has a known
+
+203
+00:07:45,300 --> 00:07:47,460
+shape
+
+204
+00:07:47,460 --> 00:07:49,139
+let me start by showing you a very
+
+205
+00:07:49,139 --> 00:07:50,880
+simple example of how this works in
+
+206
+00:07:50,880 --> 00:07:51,720
+light
+
+207
+00:07:51,720 --> 00:07:53,580
+for this experiment we need a
+
+208
+00:07:53,580 --> 00:07:55,800
+monochromatic light source and a flat
+
+209
+00:07:55,800 --> 00:07:58,259
+surface as a light source we'll use a
+
+210
+00:07:58,259 --> 00:08:00,479
+sodium lamp and for the surface we'll
+
+211
+00:08:00,479 --> 00:08:03,060
+use a flat Optical test glass
+
+212
+00:08:03,060 --> 00:08:05,280
+now a typical air gloss interface
+
+213
+00:08:05,280 --> 00:08:07,080
+reflects about four percent of the
+
+214
+00:08:07,080 --> 00:08:09,240
+incident light and with a uniform light
+
+215
+00:08:09,240 --> 00:08:12,960
+source we observe a uniform reflection
+
+216
+00:08:12,960 --> 00:08:15,300
+let's now place two differently shaped
+
+217
+00:08:15,300 --> 00:08:17,039
+surfaces on top of this reference
+
+218
+00:08:17,039 --> 00:08:19,139
+surface for evaluation and what we now
+
+219
+00:08:19,139 --> 00:08:21,539
+observe is that these objects show two
+
+220
+00:08:21,539 --> 00:08:24,060
+different interference patterns the part
+
+221
+00:08:24,060 --> 00:08:26,099
+of the left shows straight lines with
+
+222
+00:08:26,099 --> 00:08:28,379
+equal spacing and I wanted to write this
+
+223
+00:08:28,379 --> 00:08:30,720
+place these curved lines or circular
+
+224
+00:08:30,720 --> 00:08:32,880
+fringes depending on the exact surface
+
+225
+00:08:32,880 --> 00:08:35,339
+orientation now it's these intensity
+
+226
+00:08:35,339 --> 00:08:36,958
+variations that actually contain
+
+227
+00:08:36,958 --> 00:08:38,940
+detailed information about the
+
+228
+00:08:38,940 --> 00:08:40,740
+difference in shape between the
+
+229
+00:08:40,740 --> 00:08:43,260
+reference surface and the two surfaces
+
+230
+00:08:43,260 --> 00:08:45,420
+under tests and we just need to know how
+
+231
+00:08:45,420 --> 00:08:48,779
+to interpret what we see exactly
+
+232
+00:08:48,779 --> 00:08:51,420
+so what do we see well let me explain
+
+233
+00:08:51,420 --> 00:08:53,880
+with an animation I admit the following
+
+234
+00:08:53,880 --> 00:08:55,740
+is a simplification and it's not
+
+235
+00:08:55,740 --> 00:08:57,720
+correctly visualizing the physics but
+
+236
+00:08:57,720 --> 00:09:00,600
+it's actually quite illustrative here is
+
+237
+00:09:00,600 --> 00:09:03,360
+away from that has just reflected off a
+
+238
+00:09:03,360 --> 00:09:05,519
+flat reference surface so this wavefront
+
+239
+00:09:05,519 --> 00:09:08,519
+is basically also flat and so the image
+
+240
+00:09:08,519 --> 00:09:11,399
+shows a 2d cross-section of the flat
+
+241
+00:09:11,399 --> 00:09:13,019
+Optical wavefront
+
+242
+00:09:13,019 --> 00:09:16,500
+now we place a sensor in the path of the
+
+243
+00:09:16,500 --> 00:09:18,720
+light we can measure the intensity and
+
+244
+00:09:18,720 --> 00:09:20,519
+what we observe is that it's basically
+
+245
+00:09:20,519 --> 00:09:22,320
+the same everywhere and this tells us
+
+246
+00:09:22,320 --> 00:09:24,180
+exactly nothing about the shape of the
+
+247
+00:09:24,180 --> 00:09:25,440
+wavefront
+
+248
+00:09:25,440 --> 00:09:27,779
+now let's add a second wavefront that
+
+249
+00:09:27,779 --> 00:09:29,940
+has reflected of a second surface that
+
+250
+00:09:29,940 --> 00:09:32,339
+is slightly tilted in this example the
+
+251
+00:09:32,339 --> 00:09:34,680
+wavefront is also flat and what we
+
+252
+00:09:34,680 --> 00:09:36,480
+observe is that the intensity now
+
+253
+00:09:36,480 --> 00:09:38,940
+becomes non-uniform and this is caused
+
+254
+00:09:38,940 --> 00:09:40,740
+by constructive and destructive
+
+255
+00:09:40,740 --> 00:09:42,720
+interference between the two reflected
+
+256
+00:09:42,720 --> 00:09:46,019
+wavefronts at the second interface here
+
+257
+00:09:46,019 --> 00:09:48,300
+the electromagnetic field is the linear
+
+258
+00:09:48,300 --> 00:09:51,060
+sum of the contributions of the fields
+
+259
+00:09:51,060 --> 00:09:53,160
+of the two wavefronts and so in some
+
+260
+00:09:53,160 --> 00:09:55,200
+points where these contributions are
+
+261
+00:09:55,200 --> 00:09:57,839
+always in Phase they add up on the other
+
+262
+00:09:57,839 --> 00:10:00,180
+hand in places where the two are exactly
+
+263
+00:10:00,180 --> 00:10:02,459
+out of phase the field contributions
+
+264
+00:10:02,459 --> 00:10:05,160
+cancel each other out and if they are of
+
+265
+00:10:05,160 --> 00:10:07,740
+equal amplitude effectively the
+
+266
+00:10:07,740 --> 00:10:11,339
+resulting field becomes zero
+
+267
+00:10:11,339 --> 00:10:13,740
+in the case of two flat wavefronts we
+
+268
+00:10:13,740 --> 00:10:16,380
+will observe linear and equally spaced
+
+269
+00:10:16,380 --> 00:10:18,600
+fringes and the density of the
+
+270
+00:10:18,600 --> 00:10:20,339
+interference pattern itself is dependent
+
+271
+00:10:20,339 --> 00:10:22,740
+on the wedge or angle between the two
+
+272
+00:10:22,740 --> 00:10:25,140
+surfaces and the position of the fringes
+
+273
+00:10:25,140 --> 00:10:27,000
+is dependent on the distance between the
+
+274
+00:10:27,000 --> 00:10:29,519
+two surfaces now you might think that
+
+275
+00:10:29,519 --> 00:10:32,160
+linear and equally spaced fringes are
+
+276
+00:10:32,160 --> 00:10:34,800
+indicative for the presence of two flat
+
+277
+00:10:34,800 --> 00:10:37,260
+surfaces and that's partly correct but
+
+278
+00:10:37,260 --> 00:10:40,080
+two curved wavefronts with exactly the
+
+279
+00:10:40,080 --> 00:10:42,060
+same radius of curvature will actually
+
+280
+00:10:42,060 --> 00:10:44,820
+also display linear and equally spaced
+
+281
+00:10:44,820 --> 00:10:47,160
+fringes when displays are tilted
+
+282
+00:10:47,160 --> 00:10:49,079
+however when two waveforms have
+
+283
+00:10:49,079 --> 00:10:51,540
+different radii this results in curve
+
+284
+00:10:51,540 --> 00:10:53,339
+fringes and this is for example the case
+
+285
+00:10:53,339 --> 00:10:55,500
+when we have a flat and a spherical
+
+286
+00:10:55,500 --> 00:10:57,779
+wavefront interfering or when we have
+
+287
+00:10:57,779 --> 00:10:59,940
+two spherical waveforms that have a
+
+288
+00:10:59,940 --> 00:11:01,860
+different radius of curvature so I guess
+
+289
+00:11:01,860 --> 00:11:04,200
+it's important to realize that the
+
+290
+00:11:04,200 --> 00:11:06,360
+observed interference pattern only gives
+
+291
+00:11:06,360 --> 00:11:09,120
+us information about differences in
+
+292
+00:11:09,120 --> 00:11:11,459
+wavefront shape
+
+293
+00:11:11,459 --> 00:11:13,920
+the example just shown with the Sodium
+
+294
+00:11:13,920 --> 00:11:16,019
+lamp we only observe interference
+
+295
+00:11:16,019 --> 00:11:17,640
+between the interfaces when they're
+
+296
+00:11:17,640 --> 00:11:19,920
+placed very close together and that is
+
+297
+00:11:19,920 --> 00:11:22,019
+because of the limited coherence length
+
+298
+00:11:22,019 --> 00:11:24,480
+of the light so whether we can see a
+
+299
+00:11:24,480 --> 00:11:26,519
+clear interference pattern is dependent
+
+300
+00:11:26,519 --> 00:11:29,160
+on whether stable phase relationships
+
+301
+00:11:29,160 --> 00:11:31,320
+exists between the reflections coming
+
+302
+00:11:31,320 --> 00:11:33,899
+off the two surfaces at the point where
+
+303
+00:11:33,899 --> 00:11:36,000
+they start interfering and this means
+
+304
+00:11:36,000 --> 00:11:37,920
+that with a coherence length smaller
+
+305
+00:11:37,920 --> 00:11:40,019
+than a millimeter the surfaces need to
+
+306
+00:11:40,019 --> 00:11:42,120
+be quite close to each other in order to
+
+307
+00:11:42,120 --> 00:11:45,300
+observe interference fringes
+
+308
+00:11:45,300 --> 00:11:47,519
+now I just stated that in constructive
+
+309
+00:11:47,519 --> 00:11:50,040
+interference the electromagnetic fields
+
+310
+00:11:50,040 --> 00:11:52,500
+add up and in destructive interference
+
+311
+00:11:52,500 --> 00:11:54,480
+the two contributions cancel each other
+
+312
+00:11:54,480 --> 00:11:58,440
+out so what does this mean for intensity
+
+313
+00:11:58,440 --> 00:12:00,480
+well light intensity is equivalent to
+
+314
+00:12:00,480 --> 00:12:03,120
+the power per unit of surface and so
+
+315
+00:12:03,120 --> 00:12:05,100
+it's actually not the same thing as the
+
+316
+00:12:05,100 --> 00:12:07,500
+magnitude of the electronic field in
+
+317
+00:12:07,500 --> 00:12:10,019
+fact intensity scales with the square of
+
+318
+00:12:10,019 --> 00:12:11,940
+this field and so if we have two
+
+319
+00:12:11,940 --> 00:12:14,700
+reflections of equal magnitude say both
+
+320
+00:12:14,700 --> 00:12:17,220
+are four percent this means that for the
+
+321
+00:12:17,220 --> 00:12:19,019
+location of constructive interference
+
+322
+00:12:19,019 --> 00:12:21,779
+the intensity could be four times as
+
+323
+00:12:21,779 --> 00:12:24,000
+high and that is actually what is
+
+324
+00:12:24,000 --> 00:12:25,560
+generally observed in interference
+
+325
+00:12:25,560 --> 00:12:27,959
+patterns that the intensity in the
+
+326
+00:12:27,959 --> 00:12:30,300
+bright areas is much brighter than the
+
+327
+00:12:30,300 --> 00:12:32,220
+sum of the two individual intensities
+
+328
+00:12:32,220 --> 00:12:34,800
+but of course if we look on average the
+
+329
+00:12:34,800 --> 00:12:36,959
+intensity over the whole area will still
+
+330
+00:12:36,959 --> 00:12:39,060
+be equal to the sum of the two
+
+331
+00:12:39,060 --> 00:12:41,339
+individual intensities
+
+332
+00:12:41,339 --> 00:12:44,040
+anyway enough background let's return to
+
+333
+00:12:44,040 --> 00:12:46,079
+the zygote interferometer itself and
+
+334
+00:12:46,079 --> 00:12:48,060
+take a peek under the hood to see what's
+
+335
+00:12:48,060 --> 00:12:49,920
+going on inside
+
+336
+00:12:49,920 --> 00:12:51,779
+in order to do that we need to remove
+
+337
+00:12:51,779 --> 00:12:54,240
+two different Lids the outer one is made
+
+338
+00:12:54,240 --> 00:12:55,800
+of plastic and it's basically just
+
+339
+00:12:55,800 --> 00:12:57,779
+cosmetic and the second one is made out
+
+340
+00:12:57,779 --> 00:12:59,519
+of aluminum sheet metal and it is
+
+341
+00:12:59,519 --> 00:13:01,920
+intended as RF shielding for the
+
+342
+00:13:01,920 --> 00:13:04,320
+electronics inside
+
+343
+00:13:04,320 --> 00:13:06,300
+the first thing you notice is that it
+
+344
+00:13:06,300 --> 00:13:08,339
+isn't awfully full inside there is a
+
+345
+00:13:08,339 --> 00:13:10,500
+helium neon laser with its high voltage
+
+346
+00:13:10,500 --> 00:13:12,420
+power supply then there are a few
+
+347
+00:13:12,420 --> 00:13:14,579
+Optical components like a steering
+
+348
+00:13:14,579 --> 00:13:16,980
+mirror for a laser beam a variable
+
+349
+00:13:16,980 --> 00:13:18,540
+filter that can be moved mechanically
+
+350
+00:13:18,540 --> 00:13:21,000
+using a rod and this Rod also operates a
+
+351
+00:13:21,000 --> 00:13:24,000
+switch that activates either of two PCB
+
+352
+00:13:24,000 --> 00:13:26,339
+cameras that can also be found in this
+
+353
+00:13:26,339 --> 00:13:28,320
+top part of the interferometer
+
+354
+00:13:28,320 --> 00:13:30,959
+and the cameras by the way have CCD
+
+355
+00:13:30,959 --> 00:13:33,480
+chips of about four by six millimeter in
+
+356
+00:13:33,480 --> 00:13:36,600
+size and are fairly low resolution
+
+357
+00:13:36,600 --> 00:13:39,120
+now both cameras have lenses mounted in
+
+358
+00:13:39,120 --> 00:13:41,160
+front of them and one of the cameras is
+
+359
+00:13:41,160 --> 00:13:43,320
+above a tiny beam splitter and the other
+
+360
+00:13:43,320 --> 00:13:45,480
+one is above a diffuser with a Crosshair
+
+361
+00:13:45,480 --> 00:13:46,800
+printed on it
+
+362
+00:13:46,800 --> 00:13:49,380
+in the bottom compartment behind the lid
+
+363
+00:13:49,380 --> 00:13:52,440
+here we find the mains 12 volt DC power
+
+364
+00:13:52,440 --> 00:13:55,380
+supply a large beam splitter a mirror
+
+365
+00:13:55,380 --> 00:13:57,839
+under 45 degrees and a four inch
+
+366
+00:13:57,839 --> 00:13:59,700
+collimation lens and apart from a few
+
+367
+00:13:59,700 --> 00:14:01,980
+brackets and mounts that hold the Optics
+
+368
+00:14:01,980 --> 00:14:05,399
+together that is basically it
+
+369
+00:14:05,399 --> 00:14:08,100
+so you might wonder why was this thing
+
+370
+00:14:08,100 --> 00:14:10,500
+the price of a luxury car back in 1996
+
+371
+00:14:10,500 --> 00:14:13,260
+well apart from I suspect a healthy
+
+372
+00:14:13,260 --> 00:14:15,839
+profit margin there are several reasons
+
+373
+00:14:15,839 --> 00:14:17,700
+of course it's not really a mass
+
+374
+00:14:17,700 --> 00:14:20,040
+manufactured item but another reason is
+
+375
+00:14:20,040 --> 00:14:22,139
+that every component inside appears to
+
+376
+00:14:22,139 --> 00:14:24,660
+be of very high quality take for example
+
+377
+00:14:24,660 --> 00:14:27,180
+the helium neon laser according to the
+
+378
+00:14:27,180 --> 00:14:29,040
+label the tube has been specifically
+
+379
+00:14:29,040 --> 00:14:32,220
+selected for this type of instrument why
+
+380
+00:14:32,220 --> 00:14:34,620
+well if we look at the specification of
+
+381
+00:14:34,620 --> 00:14:36,120
+the coherence length of the
+
+382
+00:14:36,120 --> 00:14:38,220
+interferometer we see that it's larger
+
+383
+00:14:38,220 --> 00:14:41,279
+than 100 meters this means that the
+
+384
+00:14:41,279 --> 00:14:43,199
+wavelength variations in the laser light
+
+385
+00:14:43,199 --> 00:14:45,480
+need to be extremely low so that the
+
+386
+00:14:45,480 --> 00:14:47,399
+phase relationships hold over distances
+
+387
+00:14:47,399 --> 00:14:49,800
+of more than 100 meters now I calculated
+
+388
+00:14:49,800 --> 00:14:51,480
+what this means in terms of frequency
+
+389
+00:14:51,480 --> 00:14:53,880
+stability and found that variations in
+
+390
+00:14:53,880 --> 00:14:56,279
+the frequency of the light cannot be
+
+391
+00:14:56,279 --> 00:14:58,440
+more than 2 times 10 to the minus seven
+
+392
+00:14:58,440 --> 00:15:01,500
+percent and so this means that not just
+
+393
+00:15:01,500 --> 00:15:04,199
+any random laser will do
+
+394
+00:15:04,199 --> 00:15:05,579
+so let me take you through the
+
+395
+00:15:05,579 --> 00:15:07,079
+functionality of all the optical
+
+396
+00:15:07,079 --> 00:15:10,560
+components step by step using schematics
+
+397
+00:15:10,560 --> 00:15:12,959
+here is the helium mule laser which
+
+398
+00:15:12,959 --> 00:15:14,880
+outputs a highly coherent beam of light
+
+399
+00:15:14,880 --> 00:15:16,920
+and the direction of the beam can be
+
+400
+00:15:16,920 --> 00:15:19,019
+optimized with this small steering
+
+401
+00:15:19,019 --> 00:15:20,880
+mirror after which the beam goes through
+
+402
+00:15:20,880 --> 00:15:23,339
+a variable attenuation filter now this
+
+403
+00:15:23,339 --> 00:15:25,199
+filter allows for adjustment of the
+
+404
+00:15:25,199 --> 00:15:27,660
+general brightness of the laser beam and
+
+405
+00:15:27,660 --> 00:15:29,279
+after having passed the attenuation
+
+406
+00:15:29,279 --> 00:15:31,800
+filter the beam is going into a gradient
+
+407
+00:15:31,800 --> 00:15:33,959
+index lens which is connected to a very
+
+408
+00:15:33,959 --> 00:15:36,480
+small beam splitter
+
+409
+00:15:36,480 --> 00:15:39,300
+now a gradient index lens is a small
+
+410
+00:15:39,300 --> 00:15:41,639
+glass rod that contains a gradient in
+
+411
+00:15:41,639 --> 00:15:43,740
+refractive index that runs from the
+
+412
+00:15:43,740 --> 00:15:46,199
+center to the edge of the rod and since
+
+413
+00:15:46,199 --> 00:15:48,000
+the refractive index has the highest
+
+414
+00:15:48,000 --> 00:15:49,800
+value in the center the optical
+
+415
+00:15:49,800 --> 00:15:52,440
+wavefront in the laser beam is gradually
+
+416
+00:15:52,440 --> 00:15:54,899
+delayed more towards the center of the
+
+417
+00:15:54,899 --> 00:15:57,420
+rod and the waveform therefore becomes
+
+418
+00:15:57,420 --> 00:15:59,639
+curved which effectively results in
+
+419
+00:15:59,639 --> 00:16:02,100
+focusing of the light into a tight focal
+
+420
+00:16:02,100 --> 00:16:04,800
+point and after passing this focal point
+
+421
+00:16:04,800 --> 00:16:07,320
+the beam expands again into a nicely
+
+422
+00:16:07,320 --> 00:16:09,240
+spherical wavefront
+
+423
+00:16:09,240 --> 00:16:11,699
+a small beam splitter sends the
+
+424
+00:16:11,699 --> 00:16:13,980
+spherical waveform into the partially
+
+425
+00:16:13,980 --> 00:16:16,139
+reflective surface of a second much
+
+426
+00:16:16,139 --> 00:16:18,060
+larger beam splitter and this surface
+
+427
+00:16:18,060 --> 00:16:19,860
+reflects the light towards a collimation
+
+428
+00:16:19,860 --> 00:16:21,600
+lens where the light exits the
+
+429
+00:16:21,600 --> 00:16:23,399
+instrument
+
+430
+00:16:23,399 --> 00:16:25,620
+the function of the collimation lens is
+
+431
+00:16:25,620 --> 00:16:27,899
+to convert the spherical wavefront into
+
+432
+00:16:27,899 --> 00:16:30,060
+a flat wavefront of four inches in
+
+433
+00:16:30,060 --> 00:16:32,100
+diameter and this flat waveform can
+
+434
+00:16:32,100 --> 00:16:34,019
+serve as the basis for all kinds of
+
+435
+00:16:34,019 --> 00:16:36,600
+interferometric tests for example we can
+
+436
+00:16:36,600 --> 00:16:38,820
+place two partially reflective flat
+
+437
+00:16:38,820 --> 00:16:41,459
+interfaces into this output beam one
+
+438
+00:16:41,459 --> 00:16:43,680
+being the reference interface and one
+
+439
+00:16:43,680 --> 00:16:45,360
+being the interface that we'd like to
+
+440
+00:16:45,360 --> 00:16:47,459
+test for flatness and due to the large
+
+441
+00:16:47,459 --> 00:16:49,500
+coherence length of the light more than
+
+442
+00:16:49,500 --> 00:16:51,959
+100 meters these interfaces don't have
+
+443
+00:16:51,959 --> 00:16:55,139
+to be necessarily very close together
+
+444
+00:16:55,139 --> 00:16:57,240
+the light reflecting of these surfaces
+
+445
+00:16:57,240 --> 00:16:59,339
+is directed back into the interferometer
+
+446
+00:16:59,339 --> 00:17:01,620
+approximately along the same path as it
+
+447
+00:17:01,620 --> 00:17:03,720
+came from goes through a small beam
+
+448
+00:17:03,720 --> 00:17:05,819
+splitter again and then is collimated
+
+449
+00:17:05,819 --> 00:17:08,400
+and projected on the CCD chip and this
+
+450
+00:17:08,400 --> 00:17:10,439
+allows us to observe the interference
+
+451
+00:17:10,439 --> 00:17:12,540
+pattern between the two Reflections and
+
+452
+00:17:12,540 --> 00:17:16,380
+evaluate this visually on the monitor
+
+453
+00:17:16,380 --> 00:17:18,660
+now to steer the light off both the
+
+454
+00:17:18,660 --> 00:17:21,059
+reference and test surface exactly back
+
+455
+00:17:21,059 --> 00:17:23,099
+through the tiny beam splitter here is
+
+456
+00:17:23,099 --> 00:17:24,839
+pretty hard and you don't see anything
+
+457
+00:17:24,839 --> 00:17:27,059
+with camera one until things are almost
+
+458
+00:17:27,059 --> 00:17:29,640
+perfectly aligned so to make life a lot
+
+459
+00:17:29,640 --> 00:17:32,100
+easier the people at zygo edit this
+
+460
+00:17:32,100 --> 00:17:34,380
+alignment functionality to the system
+
+461
+00:17:34,380 --> 00:17:36,539
+part of the light from the reflections
+
+462
+00:17:36,539 --> 00:17:39,120
+can pass this larger beam splitter and
+
+463
+00:17:39,120 --> 00:17:41,160
+this part continues straight on it's
+
+464
+00:17:41,160 --> 00:17:43,799
+reflected at 90 degrees angle and then
+
+465
+00:17:43,799 --> 00:17:46,140
+reaches the glass diffuser plate that
+
+466
+00:17:46,140 --> 00:17:48,480
+contains a Crosshair pattern
+
+467
+00:17:48,480 --> 00:17:50,280
+because this diffuser plate is exactly
+
+468
+00:17:50,280 --> 00:17:52,080
+at the focal distance of the collimation
+
+469
+00:17:52,080 --> 00:17:55,020
+lens the reflections create tiny spots
+
+470
+00:17:55,020 --> 00:17:56,760
+here and their positions can be observed
+
+471
+00:17:56,760 --> 00:17:59,520
+by camera 2 that is only intended for
+
+472
+00:17:59,520 --> 00:18:02,220
+alignment purposes now this alignment
+
+473
+00:18:02,220 --> 00:18:04,919
+unit has a much larger field of view and
+
+474
+00:18:04,919 --> 00:18:06,780
+what we can do now is simply align the
+
+475
+00:18:06,780 --> 00:18:09,120
+position of the surface reflection such
+
+476
+00:18:09,120 --> 00:18:10,980
+that they are at the center of the
+
+477
+00:18:10,980 --> 00:18:13,440
+Crosshair and when that's the case the
+
+478
+00:18:13,440 --> 00:18:15,419
+system is also automatically aligned on
+
+479
+00:18:15,419 --> 00:18:17,760
+camera one we can immediately observe an
+
+480
+00:18:17,760 --> 00:18:19,740
+interferogram
+
+481
+00:18:19,740 --> 00:18:21,660
+now the interferometers that I made
+
+482
+00:18:21,660 --> 00:18:23,760
+myself did not have this kind of feature
+
+483
+00:18:23,760 --> 00:18:26,280
+and I must admit that this really makes
+
+484
+00:18:26,280 --> 00:18:29,820
+aligning Optics a piece of cake
+
+485
+00:18:29,820 --> 00:18:31,440
+here you see the location of the
+
+486
+00:18:31,440 --> 00:18:33,240
+collimation lens viewed from the outside
+
+487
+00:18:33,240 --> 00:18:36,000
+of the instrument in front of it is an
+
+488
+00:18:36,000 --> 00:18:37,740
+adjustment mechanism that is intended
+
+489
+00:18:37,740 --> 00:18:40,559
+for mounting various reference surfaces
+
+490
+00:18:40,559 --> 00:18:42,780
+to the interferometer directly like for
+
+491
+00:18:42,780 --> 00:18:45,419
+example the f.7 D5 transmission sphere
+
+492
+00:18:45,419 --> 00:18:47,820
+that came with interferometer
+
+493
+00:18:47,820 --> 00:18:50,220
+the adjustment mechanism has two degrees
+
+494
+00:18:50,220 --> 00:18:52,380
+of freedom which are tip and tilt and
+
+495
+00:18:52,380 --> 00:18:54,000
+this allows the angle of the
+
+496
+00:18:54,000 --> 00:18:55,919
+transmission reference to be oriented
+
+497
+00:18:55,919 --> 00:18:59,520
+with respect to the surface under test
+
+498
+00:18:59,520 --> 00:19:01,679
+so when testing Optical components you
+
+499
+00:19:01,679 --> 00:19:03,720
+generally test the surface shape before
+
+500
+00:19:03,720 --> 00:19:06,660
+the interfaces get coated and so in the
+
+501
+00:19:06,660 --> 00:19:08,280
+case of glosses means that they reflect
+
+502
+00:19:08,280 --> 00:19:10,080
+around four percent of the incident
+
+503
+00:19:10,080 --> 00:19:10,860
+light
+
+504
+00:19:10,860 --> 00:19:13,020
+so the transmission reference also needs
+
+505
+00:19:13,020 --> 00:19:15,299
+to reflect around four percent back into
+
+506
+00:19:15,299 --> 00:19:17,460
+the interferometer to get high contrast
+
+507
+00:19:17,460 --> 00:19:19,860
+fringes
+
+508
+00:19:19,860 --> 00:19:23,220
+not to test spherical surfaces you need
+
+509
+00:19:23,220 --> 00:19:25,860
+a spherical reference surface that
+
+510
+00:19:25,860 --> 00:19:27,780
+somehow reflects four percent of the
+
+511
+00:19:27,780 --> 00:19:30,539
+light exiting the infrometer right back
+
+512
+00:19:30,539 --> 00:19:31,860
+into the instrument
+
+513
+00:19:31,860 --> 00:19:34,200
+here I've drawn a schematic of the
+
+514
+00:19:34,200 --> 00:19:36,179
+inside of a transmission sphere assembly
+
+515
+00:19:36,179 --> 00:19:38,940
+to show you how that is achieved
+
+516
+00:19:38,940 --> 00:19:40,559
+the reference surface is the last
+
+517
+00:19:40,559 --> 00:19:43,080
+interface of the assembly here indicated
+
+518
+00:19:43,080 --> 00:19:45,960
+in yellow and all the other surfaces are
+
+519
+00:19:45,960 --> 00:19:48,360
+anti-reflection coated for the laser
+
+520
+00:19:48,360 --> 00:19:49,559
+wavelength
+
+521
+00:19:49,559 --> 00:19:51,480
+but even more importantly they're also
+
+522
+00:19:51,480 --> 00:19:53,160
+designed in such a way that the Light
+
+523
+00:19:53,160 --> 00:19:55,500
+reaches the reference interface exactly
+
+524
+00:19:55,500 --> 00:19:57,900
+perpendicular and this means that it's
+
+525
+00:19:57,900 --> 00:20:00,059
+the only interface in the transmission
+
+526
+00:20:00,059 --> 00:20:02,460
+sphere that sends a reflection back
+
+527
+00:20:02,460 --> 00:20:04,740
+where it came from and then enters the
+
+528
+00:20:04,740 --> 00:20:07,140
+interferometer as a collimated beam and
+
+529
+00:20:07,140 --> 00:20:08,039
+of course
+
+530
+00:20:08,039 --> 00:20:11,280
+96 of the light continues onto the
+
+531
+00:20:11,280 --> 00:20:13,260
+surface under test which also reflects
+
+532
+00:20:13,260 --> 00:20:15,299
+around four percent and so we observe
+
+533
+00:20:15,299 --> 00:20:17,880
+the interference occurring between these
+
+534
+00:20:17,880 --> 00:20:20,780
+two interfaces
+
+535
+00:20:20,940 --> 00:20:23,039
+with a spherical transmission reference
+
+536
+00:20:23,039 --> 00:20:25,799
+we can test convex as well as concave
+
+537
+00:20:25,799 --> 00:20:29,340
+optics for convex Optics only radii is
+
+538
+00:20:29,340 --> 00:20:30,840
+smaller than the radius of the
+
+539
+00:20:30,840 --> 00:20:32,640
+transmission sphere itself can be tested
+
+540
+00:20:32,640 --> 00:20:34,919
+and for concave Optics the only
+
+541
+00:20:34,919 --> 00:20:36,720
+limitation for the radius to be tested
+
+542
+00:20:36,720 --> 00:20:38,700
+is that it should be less than half of
+
+543
+00:20:38,700 --> 00:20:40,740
+the maximum coherence length of the
+
+544
+00:20:40,740 --> 00:20:42,720
+light source that we use which is in
+
+545
+00:20:42,720 --> 00:20:44,460
+this case 50 meters
+
+546
+00:20:44,460 --> 00:20:46,020
+now I want to save most of the
+
+547
+00:20:46,020 --> 00:20:47,460
+experiments that I had in mind for
+
+548
+00:20:47,460 --> 00:20:49,799
+another video but let's just do one
+
+549
+00:20:49,799 --> 00:20:51,780
+simple experiment for this test we'll
+
+550
+00:20:51,780 --> 00:20:54,059
+just use the flat wavefront exiting the
+
+551
+00:20:54,059 --> 00:20:55,980
+instrument and what we'll try to measure
+
+552
+00:20:55,980 --> 00:20:58,559
+is the difference in shape between the
+
+553
+00:20:58,559 --> 00:21:00,720
+two surfaces of a zero to your test
+
+554
+00:21:00,720 --> 00:21:02,880
+Clause this test class has one side
+
+555
+00:21:02,880 --> 00:21:06,000
+which I know is very flat around 120th
+
+556
+00:21:06,000 --> 00:21:07,919
+of a wavelength and this is going to be
+
+557
+00:21:07,919 --> 00:21:10,200
+our reference interface but the other
+
+558
+00:21:10,200 --> 00:21:11,940
+side is somewhat less flat and what
+
+559
+00:21:11,940 --> 00:21:13,919
+we'll try to find out is how much that
+
+560
+00:21:13,919 --> 00:21:16,160
+is
+
+561
+00:21:16,380 --> 00:21:18,360
+the two interfaces are spaced 20
+
+562
+00:21:18,360 --> 00:21:20,100
+millimeters apart and both reflect
+
+563
+00:21:20,100 --> 00:21:21,720
+around four percent of the incident
+
+564
+00:21:21,720 --> 00:21:23,820
+light so we can just place the disc in
+
+565
+00:21:23,820 --> 00:21:25,500
+the beam exiting the interferometer
+
+566
+00:21:25,500 --> 00:21:27,120
+align the position of the two
+
+567
+00:21:27,120 --> 00:21:29,220
+Reflections simultaneously and then look
+
+568
+00:21:29,220 --> 00:21:31,500
+at the interference pattern and this is
+
+569
+00:21:31,500 --> 00:21:33,900
+what it looks like as you can see we get
+
+570
+00:21:33,900 --> 00:21:35,880
+a nice and clear interference pattern
+
+571
+00:21:35,880 --> 00:21:37,860
+which by the way is extremely stable
+
+572
+00:21:37,860 --> 00:21:40,320
+with no effects of vibrations from the
+
+573
+00:21:40,320 --> 00:21:42,720
+environment and that is because the two
+
+574
+00:21:42,720 --> 00:21:44,700
+surfaces are basically mechanically
+
+575
+00:21:44,700 --> 00:21:46,679
+connected to each other by a solid piece
+
+576
+00:21:46,679 --> 00:21:48,000
+of zero Doer
+
+577
+00:21:48,000 --> 00:21:50,280
+now the small circular spots are just
+
+578
+00:21:50,280 --> 00:21:52,740
+dust particles in the optical path and
+
+579
+00:21:52,740 --> 00:21:54,419
+these are not important for our
+
+580
+00:21:54,419 --> 00:21:55,860
+evaluation
+
+581
+00:21:55,860 --> 00:21:57,600
+all the information about the different
+
+582
+00:21:57,600 --> 00:21:59,580
+in shape and orientation between the two
+
+583
+00:21:59,580 --> 00:22:02,340
+surfaces is contained in the four more
+
+584
+00:22:02,340 --> 00:22:04,919
+or less vertical fringes and because we
+
+585
+00:22:04,919 --> 00:22:06,840
+know that one side is almost perfectly
+
+586
+00:22:06,840 --> 00:22:09,240
+flat any curvature in The Fringe pattern
+
+587
+00:22:09,240 --> 00:22:11,940
+is a result of non-flatness of the
+
+588
+00:22:11,940 --> 00:22:13,799
+second interface
+
+589
+00:22:13,799 --> 00:22:15,900
+so let's try to evaluate this pattern
+
+590
+00:22:15,900 --> 00:22:18,419
+visually the most obvious feature is of
+
+591
+00:22:18,419 --> 00:22:20,460
+course the presence of the four vertical
+
+592
+00:22:20,460 --> 00:22:22,679
+fringes that indicate that there is a
+
+593
+00:22:22,679 --> 00:22:25,440
+wedge between the two interfaces in the
+
+594
+00:22:25,440 --> 00:22:27,659
+horizontal Direction and we can evaluate
+
+595
+00:22:27,659 --> 00:22:29,820
+how large this wedge is based on the
+
+596
+00:22:29,820 --> 00:22:31,620
+number of fringes it's a little over
+
+597
+00:22:31,620 --> 00:22:34,200
+four lobda wavefront meaning that there
+
+598
+00:22:34,200 --> 00:22:36,240
+is a wedge half of that between the two
+
+599
+00:22:36,240 --> 00:22:39,299
+surfaces so just two wavelengths y half
+
+600
+00:22:39,299 --> 00:22:42,240
+well that is because in reflection any
+
+601
+00:22:42,240 --> 00:22:44,520
+deviations in surface shape lead to
+
+602
+00:22:44,520 --> 00:22:46,919
+twice the deviation in the wave front
+
+603
+00:22:46,919 --> 00:22:49,140
+shape and so deviations in the surface
+
+604
+00:22:49,140 --> 00:22:51,840
+shape are only half of that observed in
+
+605
+00:22:51,840 --> 00:22:52,980
+the wavefront
+
+606
+00:22:52,980 --> 00:22:55,820
+now since the wavelength of the laser is
+
+607
+00:22:55,820 --> 00:22:59,159
+633 nanometers and the wedge is two
+
+608
+00:22:59,159 --> 00:23:01,380
+lobbed up between the two surfaces this
+
+609
+00:23:01,380 --> 00:23:03,780
+would mean a gradient in distance of
+
+610
+00:23:03,780 --> 00:23:07,799
+approximately 1.3 microns but there is a
+
+611
+00:23:07,799 --> 00:23:10,140
+little catch in this case because we are
+
+612
+00:23:10,140 --> 00:23:12,780
+comparing two surfaces with zero during
+
+613
+00:23:12,780 --> 00:23:14,880
+between them we should actually use the
+
+614
+00:23:14,880 --> 00:23:17,220
+wavelength in this material which means
+
+615
+00:23:17,220 --> 00:23:19,200
+that we should divide the wavelength in
+
+616
+00:23:19,200 --> 00:23:22,200
+air or vacuum by the refractive index of
+
+617
+00:23:22,200 --> 00:23:25,860
+zero deer which is 1.54
+
+618
+00:23:25,860 --> 00:23:28,020
+so this means that the wedge is actually
+
+619
+00:23:28,020 --> 00:23:32,039
+only 840 nanometers but which side is
+
+620
+00:23:32,039 --> 00:23:34,440
+thicker it's actually quite hard to tell
+
+621
+00:23:34,440 --> 00:23:37,140
+as for which we would see the same type
+
+622
+00:23:37,140 --> 00:23:38,940
+of interference pattern in either case
+
+623
+00:23:38,940 --> 00:23:42,539
+so at this point we just don't know
+
+624
+00:23:42,539 --> 00:23:44,640
+okay let's for a moment focus on the
+
+625
+00:23:44,640 --> 00:23:46,620
+curvature of the fringes now which
+
+626
+00:23:46,620 --> 00:23:48,780
+indicates a difference in the radius
+
+627
+00:23:48,780 --> 00:23:51,059
+between the two surfaces and if we look
+
+628
+00:23:51,059 --> 00:23:53,280
+at how much the curvature in the fringes
+
+629
+00:23:53,280 --> 00:23:55,980
+deviates from straight lines we see that
+
+630
+00:23:55,980 --> 00:23:58,620
+it's largest here in the center it's
+
+631
+00:23:58,620 --> 00:24:02,100
+about 0.4 times The Fringe spacing which
+
+632
+00:24:02,100 --> 00:24:04,559
+translates to 0.4 wavelengths of height
+
+633
+00:24:04,559 --> 00:24:06,659
+difference between the edge and the
+
+634
+00:24:06,659 --> 00:24:08,340
+center of the disc
+
+635
+00:24:08,340 --> 00:24:10,679
+for the surface error which again is
+
+636
+00:24:10,679 --> 00:24:14,220
+half of that we find 0.2 wavelengths now
+
+637
+00:24:14,220 --> 00:24:16,200
+since we also need to use the wavelength
+
+638
+00:24:16,200 --> 00:24:19,020
+inside zero do here this means that the
+
+639
+00:24:19,020 --> 00:24:21,539
+surface curvature is 0.2 times the
+
+640
+00:24:21,539 --> 00:24:24,059
+wavelength divided by the refractive
+
+641
+00:24:24,059 --> 00:24:26,400
+index which results in a value of 82
+
+642
+00:24:26,400 --> 00:24:27,600
+nanometers
+
+643
+00:24:27,600 --> 00:24:29,880
+but in which direction is the curve is
+
+644
+00:24:29,880 --> 00:24:32,280
+the surface under test 82 nanometers
+
+645
+00:24:32,280 --> 00:24:35,159
+concave or convex as for the direction
+
+646
+00:24:35,159 --> 00:24:37,500
+of the wedge there is no easy way to
+
+647
+00:24:37,500 --> 00:24:39,419
+tell so now we end up with these four
+
+648
+00:24:39,419 --> 00:24:41,880
+configurations of which only one can be
+
+649
+00:24:41,880 --> 00:24:43,799
+correct
+
+650
+00:24:43,799 --> 00:24:46,080
+with a little logic though you could at
+
+651
+00:24:46,080 --> 00:24:47,820
+this point already discard two of these
+
+652
+00:24:47,820 --> 00:24:51,120
+as infeasible but of course you want to
+
+653
+00:24:51,120 --> 00:24:53,820
+know exactly which configuration of the
+
+654
+00:24:53,820 --> 00:24:55,799
+four is correct right
+
+655
+00:24:55,799 --> 00:24:58,380
+so if that's indeed the case figure it
+
+656
+00:24:58,380 --> 00:25:00,900
+out yourself you just need two more
+
+657
+00:25:00,900 --> 00:25:03,659
+pieces of information here is a first
+
+658
+00:25:03,659 --> 00:25:05,760
+hint if I press my finger against the
+
+659
+00:25:05,760 --> 00:25:08,039
+back side of the disk so the service and
+
+660
+00:25:08,039 --> 00:25:09,539
+the test we can observe that the
+
+661
+00:25:09,539 --> 00:25:11,340
+interferogram changes due to the
+
+662
+00:25:11,340 --> 00:25:13,500
+temperature increase of the material by
+
+663
+00:25:13,500 --> 00:25:15,960
+the heat of my finger locally it's only
+
+664
+00:25:15,960 --> 00:25:17,700
+a few degrees Celsius higher but the
+
+665
+00:25:17,700 --> 00:25:19,799
+effect is very noticeable because we are
+
+666
+00:25:19,799 --> 00:25:22,740
+measuring in the nanometer range
+
+667
+00:25:22,740 --> 00:25:24,659
+now the second piece of information you
+
+668
+00:25:24,659 --> 00:25:27,179
+need is about the expansion coefficient
+
+669
+00:25:27,179 --> 00:25:29,640
+of the material as you can see from the
+
+670
+00:25:29,640 --> 00:25:31,799
+specifications of zero zero it can be
+
+671
+00:25:31,799 --> 00:25:34,440
+either positive or negative
+
+672
+00:25:34,440 --> 00:25:36,659
+but this piece of 02 has a positive
+
+673
+00:25:36,659 --> 00:25:38,640
+coefficient of thermal expansion which
+
+674
+00:25:38,640 --> 00:25:40,020
+means it expands with temperature
+
+675
+00:25:40,020 --> 00:25:42,960
+increase and with these two additional
+
+676
+00:25:42,960 --> 00:25:45,120
+pieces of information it's possible to
+
+677
+00:25:45,120 --> 00:25:47,159
+tell which of these four options is
+
+678
+00:25:47,159 --> 00:25:49,440
+correct now the first person to make a
+
+679
+00:25:49,440 --> 00:25:51,480
+comment with the correct answer and of
+
+680
+00:25:51,480 --> 00:25:55,320
+course why owns the pinned comment
+
+681
+00:25:55,320 --> 00:25:57,419
+okay so the letter was a very brief
+
+682
+00:25:57,419 --> 00:25:59,419
+explanation of how you can evaluate
+
+683
+00:25:59,419 --> 00:26:01,740
+interferograms visually and the above
+
+684
+00:26:01,740 --> 00:26:03,779
+example was actually relatively easy
+
+685
+00:26:03,779 --> 00:26:06,179
+imagine your interferogram looks
+
+686
+00:26:06,179 --> 00:26:08,700
+something like this or this in these
+
+687
+00:26:08,700 --> 00:26:10,620
+cases it would be quite a bit more
+
+688
+00:26:10,620 --> 00:26:12,360
+challenging to make accurate statements
+
+689
+00:26:12,360 --> 00:26:15,000
+about the exact surface shape
+
+690
+00:26:15,000 --> 00:26:16,799
+and this is why in the next video about
+
+691
+00:26:16,799 --> 00:26:18,600
+the subject I have replaced the current
+
+692
+00:26:18,600 --> 00:26:21,840
+analog camera with a high resolution IP
+
+693
+00:26:21,840 --> 00:26:23,580
+camera and this allows for a very
+
+694
+00:26:23,580 --> 00:26:25,140
+detailed evaluation of the
+
+695
+00:26:25,140 --> 00:26:27,419
+interferograms using software
+
+696
+00:26:27,419 --> 00:26:29,340
+with the help of this software we can
+
+697
+00:26:29,340 --> 00:26:32,700
+measure wedges angles surface curvature
+
+698
+00:26:32,700 --> 00:26:35,279
+and even the effect of warm fingers very
+
+699
+00:26:35,279 --> 00:26:37,860
+accurately also we'll take a look at how
+
+700
+00:26:37,860 --> 00:26:39,720
+to measure the shape of various Optical
+
+701
+00:26:39,720 --> 00:26:42,059
+surfaces and the quality of lens
+
+702
+00:26:42,059 --> 00:26:44,520
+assemblies so hopefully I'll see you in
+
+703
+00:26:44,520 --> 00:26:47,360
+the next video again
+
+704
+00:26:49,180 --> 00:26:55,260
+[Music]
+
+705
+00:26:56,880 --> 00:26:59,270
+thank you
+
+706
+00:26:59,270 --> 00:27:06,800
+[Music]
+
+707
+00:27:13,400 --> 00:27:16,700
+bye bye
+
+
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+
+
+# Optical Interferometry Part 2 - Measuring Optics with a Zygo GPI LC
+
+
+1
+00:00:00,719 --> 00:00:02,399
+hey everyone
+
+2
+00:00:02,399 --> 00:00:04,680
+today I want to demonstrate how the zygo
+
+3
+00:00:04,680 --> 00:00:06,480
+interferometer that I bought a few
+
+4
+00:00:06,480 --> 00:00:09,720
+months ago can be used to test Optics in
+
+5
+00:00:09,720 --> 00:00:11,519
+the previous video I explained how
+
+6
+00:00:11,519 --> 00:00:14,160
+interferometry Works what a wavefront is
+
+7
+00:00:14,160 --> 00:00:15,980
+and discuss the layout of the instrument
+
+8
+00:00:15,980 --> 00:00:18,660
+if you're unfamiliar with interferometry
+
+9
+00:00:18,660 --> 00:00:20,340
+and you haven't seen the previous video
+
+10
+00:00:20,340 --> 00:00:22,740
+it might be a good idea to watch that
+
+11
+00:00:22,740 --> 00:00:24,720
+one first
+
+12
+00:00:24,720 --> 00:00:27,300
+this video became quite long so here's
+
+13
+00:00:27,300 --> 00:00:29,640
+an overview of the contents which allows
+
+14
+00:00:29,640 --> 00:00:31,140
+you to skip ahead if you don't want to
+
+15
+00:00:31,140 --> 00:00:33,960
+watch everything first I'll show how I
+
+16
+00:00:33,960 --> 00:00:35,820
+replace the original low resolution
+
+17
+00:00:35,820 --> 00:00:38,219
+camera of the zygote with a modern IP
+
+18
+00:00:38,219 --> 00:00:40,160
+camera to record high resolution
+
+19
+00:00:40,160 --> 00:00:42,480
+interferograms and then we'll take a
+
+20
+00:00:42,480 --> 00:00:44,280
+quick look at how we can use the camera
+
+21
+00:00:44,280 --> 00:00:46,320
+in combination with the software called
+
+22
+00:00:46,320 --> 00:00:49,500
+DFT Fringe to create detailed wavefront
+
+23
+00:00:49,500 --> 00:00:50,760
+maps
+
+24
+00:00:50,760 --> 00:00:52,980
+the interferometer came with a reference
+
+25
+00:00:52,980 --> 00:00:55,020
+transmission sphere but unfortunately
+
+26
+00:00:55,020 --> 00:00:57,300
+the waveform documentation of this item
+
+27
+00:00:57,300 --> 00:00:59,460
+was missing so to do meaningful
+
+28
+00:00:59,460 --> 00:01:01,260
+measurements with it we first need to
+
+29
+00:01:01,260 --> 00:01:03,840
+establish its accuracy by performing a
+
+30
+00:01:03,840 --> 00:01:06,119
+calibration and with that done we can
+
+31
+00:01:06,119 --> 00:01:08,760
+test some actual Optics we'll examine
+
+32
+00:01:08,760 --> 00:01:10,860
+the surface properties of a high quality
+
+33
+00:01:10,860 --> 00:01:13,140
+concave wafer scanner mirror from the
+
+34
+00:01:13,140 --> 00:01:15,360
+1970s then we'll take a look at the
+
+35
+00:01:15,360 --> 00:01:17,520
+wavefront quality of a vintage Canon F
+
+36
+00:01:17,520 --> 00:01:20,640
+1.2 lens from the early 1980s will do
+
+37
+00:01:20,640 --> 00:01:22,799
+the same for a modern full-frame Canon
+
+38
+00:01:22,799 --> 00:01:25,799
+EF zoom lens and in the last part of the
+
+39
+00:01:25,799 --> 00:01:28,320
+video I'll show you measurements on the
+
+40
+00:01:28,320 --> 00:01:29,939
+optical properties of a couple of
+
+41
+00:01:29,939 --> 00:01:32,280
+microscope objectives all in all there's
+
+42
+00:01:32,280 --> 00:01:34,619
+quite a lot to cover so let's Dive Right
+
+43
+00:01:34,619 --> 00:01:36,360
+In
+
+44
+00:01:36,360 --> 00:01:38,460
+as shown in the previous video the
+
+45
+00:01:38,460 --> 00:01:40,079
+interferometer is a somewhat basic
+
+46
+00:01:40,079 --> 00:01:42,600
+version that displayed low resolution
+
+47
+00:01:42,600 --> 00:01:45,180
+black and white images on a monitor for
+
+48
+00:01:45,180 --> 00:01:46,979
+visual evaluation the instrument
+
+49
+00:01:46,979 --> 00:01:49,079
+contained two cameras one for the
+
+50
+00:01:49,079 --> 00:01:50,939
+alignment of the Optics under test and
+
+51
+00:01:50,939 --> 00:01:52,680
+one for displaying the interferogram
+
+52
+00:01:52,680 --> 00:01:55,380
+both cameras had a rather limited
+
+53
+00:01:55,380 --> 00:01:59,340
+resolution of 320 times 240 pixels now
+
+54
+00:01:59,340 --> 00:02:02,220
+since this is not 1996 anymore we can
+
+55
+00:02:02,220 --> 00:02:05,399
+now do quite a bit better than that
+
+56
+00:02:05,399 --> 00:02:07,259
+for the new camera to record the
+
+57
+00:02:07,259 --> 00:02:09,598
+interferograms I wanted to use a housed
+
+58
+00:02:09,598 --> 00:02:11,700
+camera with some kind of Mount to be
+
+59
+00:02:11,700 --> 00:02:13,560
+able to attach various types of lenses
+
+60
+00:02:13,560 --> 00:02:15,360
+and if you look at the layout of the
+
+61
+00:02:15,360 --> 00:02:17,400
+instrument there's actually plenty of
+
+62
+00:02:17,400 --> 00:02:19,560
+space to place such a camera in the
+
+63
+00:02:19,560 --> 00:02:21,959
+instrument right here we just need to
+
+64
+00:02:21,959 --> 00:02:23,879
+redirect the light in the horizontal
+
+65
+00:02:23,879 --> 00:02:26,520
+Direction so what I did was remove the
+
+66
+00:02:26,520 --> 00:02:28,620
+old camera and the lens and then made a
+
+67
+00:02:28,620 --> 00:02:30,900
+bracket that can hold a first surface
+
+68
+00:02:30,900 --> 00:02:33,180
+mirror under 45 degrees and this mirror
+
+69
+00:02:33,180 --> 00:02:35,580
+redirects the vertical beam to a
+
+70
+00:02:35,580 --> 00:02:37,080
+horizontal one which can then be
+
+71
+00:02:37,080 --> 00:02:39,480
+captured by the camera I tried different
+
+72
+00:02:39,480 --> 00:02:41,340
+kinds of lenses and eventually settled
+
+73
+00:02:41,340 --> 00:02:44,580
+on this compact 25 millimeter C mount
+
+74
+00:02:44,580 --> 00:02:47,099
+lens that works for most situations it's
+
+75
+00:02:47,099 --> 00:02:49,080
+able to capture the full field of the
+
+76
+00:02:49,080 --> 00:02:50,879
+interferometer while at the same time
+
+77
+00:02:50,879 --> 00:02:53,160
+covering a fairly large area of the
+
+78
+00:02:53,160 --> 00:02:55,260
+camera chip but of course for specific
+
+79
+00:02:55,260 --> 00:02:57,300
+measurements it's possible to use other
+
+80
+00:02:57,300 --> 00:02:59,700
+lenses like lenses with a longer focal
+
+81
+00:02:59,700 --> 00:03:02,280
+length or a variable zoom lens and this
+
+82
+00:03:02,280 --> 00:03:04,200
+can be very useful if you want to take a
+
+83
+00:03:04,200 --> 00:03:06,540
+look at small details in interferograms
+
+84
+00:03:06,540 --> 00:03:09,239
+by the way I left the original alignment
+
+85
+00:03:09,239 --> 00:03:10,920
+camera where it was because it still
+
+86
+00:03:10,920 --> 00:03:13,080
+works fine and you actually don't need a
+
+87
+00:03:13,080 --> 00:03:15,480
+lot of resolution to do the alignment
+
+88
+00:03:15,480 --> 00:03:17,879
+so the original monitor is still used in
+
+89
+00:03:17,879 --> 00:03:20,340
+the setup but only during alignment
+
+90
+00:03:20,340 --> 00:03:22,500
+procedures
+
+91
+00:03:22,500 --> 00:03:24,780
+for powering the IP camera I connected
+
+92
+00:03:24,780 --> 00:03:26,940
+it to a 12 volt power supply already
+
+93
+00:03:26,940 --> 00:03:28,980
+present in the instrument and after that
+
+94
+00:03:28,980 --> 00:03:30,540
+there was just one more thing to do and
+
+95
+00:03:30,540 --> 00:03:32,400
+that was bringing the camera's UTP
+
+96
+00:03:32,400 --> 00:03:34,379
+connection to the housing of the
+
+97
+00:03:34,379 --> 00:03:36,480
+instrument and for this purpose I used a
+
+98
+00:03:36,480 --> 00:03:39,360
+two-sided UTP female connector one side
+
+99
+00:03:39,360 --> 00:03:41,099
+connects to the camera the other side
+
+100
+00:03:41,099 --> 00:03:43,319
+connects to a PC and with that the
+
+101
+00:03:43,319 --> 00:03:46,200
+conversion is complete
+
+102
+00:03:46,200 --> 00:03:48,959
+now I used an IDs ethernet camera for
+
+103
+00:03:48,959 --> 00:03:50,879
+the conversion but in fact any camera
+
+104
+00:03:50,879 --> 00:03:52,739
+will do as long as it can be accessed
+
+105
+00:03:52,739 --> 00:03:55,019
+from a computer and the images can be
+
+106
+00:03:55,019 --> 00:03:57,599
+stored to disk so to capture the data
+
+107
+00:03:57,599 --> 00:03:59,879
+what I do is I align the optic to be
+
+108
+00:03:59,879 --> 00:04:01,680
+measured such that a clear interferogram
+
+109
+00:04:01,680 --> 00:04:04,440
+is visible with well-defined fringes it
+
+110
+00:04:04,440 --> 00:04:06,180
+helps if the camera software has a
+
+111
+00:04:06,180 --> 00:04:08,519
+feature to monitor the maximum Fringe
+
+112
+00:04:08,519 --> 00:04:10,739
+intensity so that we can adjust it to
+
+113
+00:04:10,739 --> 00:04:12,780
+within the linear dynamic range of the
+
+114
+00:04:12,780 --> 00:04:14,459
+camera then I collect the number of
+
+115
+00:04:14,459 --> 00:04:16,440
+interferograms with somewhat different
+
+116
+00:04:16,440 --> 00:04:18,839
+Fringe angles and spacings and these can
+
+117
+00:04:18,839 --> 00:04:21,478
+then serve as the basis for a wavefront
+
+118
+00:04:21,478 --> 00:04:23,340
+analysis
+
+119
+00:04:23,340 --> 00:04:25,560
+for the actual wavefront calculations
+
+120
+00:04:25,560 --> 00:04:28,199
+we'll use a free software called DFT
+
+121
+00:04:28,199 --> 00:04:31,320
+Fringe it's programmed by Dale Eason who
+
+122
+00:04:31,320 --> 00:04:33,479
+took it upon himself to make advanced
+
+123
+00:04:33,479 --> 00:04:36,060
+interferometry accessible to the masses
+
+124
+00:04:36,060 --> 00:04:38,520
+it's designed with amateur telescoping
+
+125
+00:04:38,520 --> 00:04:41,040
+in mind but as will become clear its
+
+126
+00:04:41,040 --> 00:04:42,900
+application range is quite a bit broader
+
+127
+00:04:42,900 --> 00:04:44,880
+than that I won't delve into all the
+
+128
+00:04:44,880 --> 00:04:46,860
+functionality of the software instead
+
+129
+00:04:46,860 --> 00:04:48,660
+I'll just very quickly walk you through
+
+130
+00:04:48,660 --> 00:04:51,060
+the process of evaluating interferograms
+
+131
+00:04:51,060 --> 00:04:53,759
+and averaging wavefronts
+
+132
+00:04:53,759 --> 00:04:55,800
+so here is the start screen of DFT
+
+133
+00:04:55,800 --> 00:04:58,500
+Fringe and before you can evaluate the
+
+134
+00:04:58,500 --> 00:05:00,419
+inferiograms correctly a program
+
+135
+00:05:00,419 --> 00:05:02,580
+requires the input of a few settings
+
+136
+00:05:02,580 --> 00:05:05,400
+like what wavelength is used and what
+
+137
+00:05:05,400 --> 00:05:07,320
+The Fringe spacing in the interferogram
+
+138
+00:05:07,320 --> 00:05:09,479
+actually represents now in some
+
+139
+00:05:09,479 --> 00:05:11,940
+configurations each Fringe represents
+
+140
+00:05:11,940 --> 00:05:14,400
+one wavelength of phase shift but in
+
+141
+00:05:14,400 --> 00:05:16,259
+others like in Auto collimation this
+
+142
+00:05:16,259 --> 00:05:18,380
+value actually needs to be set to 0.5
+
+143
+00:05:18,380 --> 00:05:20,820
+and when all the parameters are set
+
+144
+00:05:20,820 --> 00:05:24,300
+we're basically ready to go
+
+145
+00:05:24,300 --> 00:05:27,240
+the software gets us to our results in a
+
+146
+00:05:27,240 --> 00:05:30,000
+few steps you start by importing a
+
+147
+00:05:30,000 --> 00:05:32,280
+recorded interferogram and Define the
+
+148
+00:05:32,280 --> 00:05:35,759
+areas you wish to include or exclude in
+
+149
+00:05:35,759 --> 00:05:38,160
+the wavefront evaluation
+
+150
+00:05:38,160 --> 00:05:40,800
+if that's done the software performs a
+
+151
+00:05:40,800 --> 00:05:43,139
+2d Fourier transform on the selected
+
+152
+00:05:43,139 --> 00:05:45,479
+area and allows us to do a bit of low
+
+153
+00:05:45,479 --> 00:05:47,580
+frequency spatial filtering this
+
+154
+00:05:47,580 --> 00:05:49,620
+filtering can for example remove low
+
+155
+00:05:49,620 --> 00:05:51,900
+spatial frequencies that are the result
+
+156
+00:05:51,900 --> 00:05:54,720
+of the global intensity variations due
+
+157
+00:05:54,720 --> 00:05:56,759
+to an even illumination over the full
+
+158
+00:05:56,759 --> 00:05:59,280
+surface and after setting the low
+
+159
+00:05:59,280 --> 00:06:01,440
+frequency spatial filtering the image is
+
+160
+00:06:01,440 --> 00:06:03,840
+resampled to a specific size and from
+
+161
+00:06:03,840 --> 00:06:05,880
+this the software calculates the
+
+162
+00:06:05,880 --> 00:06:08,400
+waveform data
+
+163
+00:06:08,400 --> 00:06:10,080
+when the software calculates the
+
+164
+00:06:10,080 --> 00:06:12,600
+wavefront it also fits the data to a
+
+165
+00:06:12,600 --> 00:06:15,360
+specific set of known aberrations this
+
+166
+00:06:15,360 --> 00:06:17,160
+feature allows for removing specific
+
+167
+00:06:17,160 --> 00:06:19,440
+aberrations from your analysis for
+
+168
+00:06:19,440 --> 00:06:21,600
+example tilt is generally not an
+
+169
+00:06:21,600 --> 00:06:23,220
+aberration of interest because it
+
+170
+00:06:23,220 --> 00:06:25,319
+describes the orientation between the
+
+171
+00:06:25,319 --> 00:06:27,300
+reference and the wavefront under test
+
+172
+00:06:27,300 --> 00:06:29,460
+and so it has nothing to do with the
+
+173
+00:06:29,460 --> 00:06:32,100
+shape of either surface now DFD Fringe
+
+174
+00:06:32,100 --> 00:06:34,139
+allows you to either include or exclude
+
+175
+00:06:34,139 --> 00:06:36,300
+it from your analysis
+
+176
+00:06:36,300 --> 00:06:38,580
+you can customize the presentation of
+
+177
+00:06:38,580 --> 00:06:41,340
+the results and the scale you can also
+
+178
+00:06:41,340 --> 00:06:43,860
+for example convert wavefront errors to
+
+179
+00:06:43,860 --> 00:06:45,840
+surface shape errors and choose to
+
+180
+00:06:45,840 --> 00:06:47,880
+represent them in nanometers instead of
+
+181
+00:06:47,880 --> 00:06:50,759
+waves all in all this is a very useful
+
+182
+00:06:50,759 --> 00:06:53,100
+tool for interferometric Fringe analysis
+
+183
+00:06:53,100 --> 00:06:55,319
+and on top of that it can be downloaded
+
+184
+00:06:55,319 --> 00:06:57,800
+for free
+
+185
+00:06:57,900 --> 00:07:00,120
+in all the upcoming experiments I will
+
+186
+00:07:00,120 --> 00:07:03,300
+use this F 0.75 transmission sphere as a
+
+187
+00:07:03,300 --> 00:07:05,340
+reference and as I mentioned in the
+
+188
+00:07:05,340 --> 00:07:06,840
+introduction we don't know anything
+
+189
+00:07:06,840 --> 00:07:09,780
+about its accuracy of shape so before we
+
+190
+00:07:09,780 --> 00:07:11,699
+can measure any meaningful results with
+
+191
+00:07:11,699 --> 00:07:14,039
+it we need to measure the accuracy of
+
+192
+00:07:14,039 --> 00:07:16,500
+the reference sphere first but how do we
+
+193
+00:07:16,500 --> 00:07:18,900
+do that we could of course calibrate the
+
+194
+00:07:18,900 --> 00:07:20,880
+surface of the transmission sphere by
+
+195
+00:07:20,880 --> 00:07:22,860
+comparing its shape to a more precise
+
+196
+00:07:22,860 --> 00:07:25,620
+reference surface but instead I want to
+
+197
+00:07:25,620 --> 00:07:28,020
+show you another method known as the
+
+198
+00:07:28,020 --> 00:07:30,599
+random Ball Method
+
+199
+00:07:30,599 --> 00:07:32,699
+the method requires the use of a small
+
+200
+00:07:32,699 --> 00:07:35,039
+smooth ball with a reflective surface
+
+201
+00:07:35,039 --> 00:07:37,199
+the surface of the ball doesn't need to
+
+202
+00:07:37,199 --> 00:07:39,180
+be perfectly spherical but I guess it
+
+203
+00:07:39,180 --> 00:07:41,639
+helps if it's quite close to spherical
+
+204
+00:07:41,639 --> 00:07:43,380
+now the only thing we need to do for the
+
+205
+00:07:43,380 --> 00:07:45,060
+experiment is to measure the surface
+
+206
+00:07:45,060 --> 00:07:46,860
+shape of the ball at many random
+
+207
+00:07:46,860 --> 00:07:48,720
+positions with the reference sphere and
+
+208
+00:07:48,720 --> 00:07:51,060
+then average these measurements now the
+
+209
+00:07:51,060 --> 00:07:52,440
+reason that this works is that if you
+
+210
+00:07:52,440 --> 00:07:54,419
+collect a lot of samples from a bowl
+
+211
+00:07:54,419 --> 00:07:56,940
+surface even if it's far from perfect
+
+212
+00:07:56,940 --> 00:07:59,280
+all the errors in the individual parts
+
+213
+00:07:59,280 --> 00:08:01,199
+of the surface will eventually average
+
+214
+00:08:01,199 --> 00:08:04,020
+out and the average will iterate to a
+
+215
+00:08:04,020 --> 00:08:06,960
+surface equivalent of a perfect sphere
+
+216
+00:08:06,960 --> 00:08:09,120
+and when you get to that point the only
+
+217
+00:08:09,120 --> 00:08:11,340
+error that remains is the surface error
+
+218
+00:08:11,340 --> 00:08:13,500
+in the reference sphere because it's
+
+219
+00:08:13,500 --> 00:08:15,419
+systematically present in all the
+
+220
+00:08:15,419 --> 00:08:18,440
+individual measurements
+
+221
+00:08:18,479 --> 00:08:20,639
+you can buy these special high accuracy
+
+222
+00:08:20,639 --> 00:08:22,620
+silicon carbide balls for this purpose
+
+223
+00:08:22,620 --> 00:08:25,199
+and these are pretty expensive however
+
+224
+00:08:25,199 --> 00:08:27,900
+there's a much cheaper way I just used a
+
+225
+00:08:27,900 --> 00:08:29,639
+Precision aluminum oxide bearing ball
+
+226
+00:08:29,639 --> 00:08:31,800
+that typically costs less than let's say
+
+227
+00:08:31,800 --> 00:08:33,659
+25 Euros online
+
+228
+00:08:33,659 --> 00:08:35,458
+the largest balls generally have a
+
+229
+00:08:35,458 --> 00:08:37,679
+diameter of around 10 millimeters and
+
+230
+00:08:37,679 --> 00:08:39,299
+have a variation in the diameter of
+
+231
+00:08:39,299 --> 00:08:41,940
+about one micron so they're not
+
+232
+00:08:41,940 --> 00:08:44,159
+incredibly precise but as you will see
+
+233
+00:08:44,159 --> 00:08:46,500
+precise enough for this experiment
+
+234
+00:08:46,500 --> 00:08:48,660
+to hold the ball I made a stand from
+
+235
+00:08:48,660 --> 00:08:51,120
+three quarter inch bearing balls glued
+
+236
+00:08:51,120 --> 00:08:53,580
+on top of an aluminum rod using epoxy
+
+237
+00:08:53,580 --> 00:08:55,920
+and now we have a calibration setup
+
+238
+00:08:55,920 --> 00:08:59,519
+ready for less than 30 Euros
+
+239
+00:08:59,519 --> 00:09:01,500
+calibration procedure itself involves
+
+240
+00:09:01,500 --> 00:09:03,540
+placing this ball at the center of the
+
+241
+00:09:03,540 --> 00:09:05,279
+radius of curvature of the transmission
+
+242
+00:09:05,279 --> 00:09:08,339
+sphere in some random orientation we
+
+243
+00:09:08,339 --> 00:09:10,620
+record an interferogram then choose a
+
+244
+00:09:10,620 --> 00:09:12,779
+different random area on the ball record
+
+245
+00:09:12,779 --> 00:09:15,120
+another one and so on
+
+246
+00:09:15,120 --> 00:09:17,100
+and here is what evaluating the results
+
+247
+00:09:17,100 --> 00:09:19,680
+looks like in Practice What You observe
+
+248
+00:09:19,680 --> 00:09:21,779
+is that in the individual measurements
+
+249
+00:09:21,779 --> 00:09:23,640
+the surface area is generally larger
+
+250
+00:09:23,640 --> 00:09:25,740
+than a quarter of lobda and it's
+
+251
+00:09:25,740 --> 00:09:27,779
+actually all over the place and this is
+
+252
+00:09:27,779 --> 00:09:29,760
+due to the errors present in the shape
+
+253
+00:09:29,760 --> 00:09:32,459
+of the ball but look what happens when
+
+254
+00:09:32,459 --> 00:09:34,080
+we start averaging these measurements
+
+255
+00:09:34,080 --> 00:09:36,420
+after 10 measurements the error has
+
+256
+00:09:36,420 --> 00:09:38,220
+basically dropped down to a tenth of a
+
+257
+00:09:38,220 --> 00:09:40,620
+lobda peaked Valley and by adding more
+
+258
+00:09:40,620 --> 00:09:42,540
+and more measurements to the average we
+
+259
+00:09:42,540 --> 00:09:44,760
+can gradually bring this down even
+
+260
+00:09:44,760 --> 00:09:48,420
+further until after evaluating about 50
+
+261
+00:09:48,420 --> 00:09:50,880
+interferograms we do not see Improvement
+
+262
+00:09:50,880 --> 00:09:53,160
+anymore in the result and at that point
+
+263
+00:09:53,160 --> 00:09:55,380
+we know that the error that remains is
+
+264
+00:09:55,380 --> 00:09:57,540
+basically the error in the transmission
+
+265
+00:09:57,540 --> 00:09:59,880
+sphere reference
+
+266
+00:09:59,880 --> 00:10:02,040
+if we look at the accuracy of shape in
+
+267
+00:10:02,040 --> 00:10:04,200
+the spherical reference it's about 1
+
+268
+00:10:04,200 --> 00:10:07,080
+20th of a wavelength peaked Valley and
+
+269
+00:10:07,080 --> 00:10:08,459
+we will consider this to be the
+
+270
+00:10:08,459 --> 00:10:10,740
+wavefront accuracy over the full area of
+
+271
+00:10:10,740 --> 00:10:12,060
+the transmission sphere
+
+272
+00:10:12,060 --> 00:10:14,339
+now in all the upcoming tests we will
+
+273
+00:10:14,339 --> 00:10:16,440
+only use a small fraction of this
+
+274
+00:10:16,440 --> 00:10:18,180
+reference surface which will make the
+
+275
+00:10:18,180 --> 00:10:20,580
+accuracy of the tests quite a bit higher
+
+276
+00:10:20,580 --> 00:10:24,120
+than 1 20th of a lot
+
+277
+00:10:24,120 --> 00:10:26,760
+DFD Fringe presents the value of the
+
+278
+00:10:26,760 --> 00:10:29,580
+strail ratio quite prominently and I
+
+279
+00:10:29,580 --> 00:10:31,560
+actually discussed sterile ratio in
+
+280
+00:10:31,560 --> 00:10:34,860
+another video I must admit still ratio
+
+281
+00:10:34,860 --> 00:10:37,140
+is not the most common parameter used in
+
+282
+00:10:37,140 --> 00:10:39,480
+the specification of the optical quality
+
+283
+00:10:39,480 --> 00:10:42,180
+of for example lenses but for specifying
+
+284
+00:10:42,180 --> 00:10:44,339
+wavefront performance close to the
+
+285
+00:10:44,339 --> 00:10:46,140
+diffraction limit I think it's a very
+
+286
+00:10:46,140 --> 00:10:48,660
+useful parameter what it describes is
+
+287
+00:10:48,660 --> 00:10:50,820
+basically just the ratio between where
+
+288
+00:10:50,820 --> 00:10:52,800
+wave energy actually ends up in the
+
+289
+00:10:52,800 --> 00:10:55,019
+image compared to where it should have
+
+290
+00:10:55,019 --> 00:10:57,720
+ended up if the optic were perfect
+
+291
+00:10:57,720 --> 00:11:00,060
+so here's a graph of an intensity
+
+292
+00:11:00,060 --> 00:11:03,060
+profile of an imperfect optic and of a
+
+293
+00:11:03,060 --> 00:11:05,220
+perfect optic now to calculate this
+
+294
+00:11:05,220 --> 00:11:07,140
+Trail we take the area that is under
+
+295
+00:11:07,140 --> 00:11:10,320
+both curves and name it B and then
+
+296
+00:11:10,320 --> 00:11:12,540
+divide this by the area under the
+
+297
+00:11:12,540 --> 00:11:15,180
+perfect curve so area a and this
+
+298
+00:11:15,180 --> 00:11:17,579
+represents the fraction of the light
+
+299
+00:11:17,579 --> 00:11:19,800
+energy that goes where it should have
+
+300
+00:11:19,800 --> 00:11:22,740
+gone in an image
+
+301
+00:11:22,740 --> 00:11:25,620
+since Trail ratio is a fraction its
+
+302
+00:11:25,620 --> 00:11:28,200
+value is between 0 and 1 and the value
+
+303
+00:11:28,200 --> 00:11:30,240
+of 1 only applies to an object that
+
+304
+00:11:30,240 --> 00:11:32,700
+performs at the theoretical limit now
+
+305
+00:11:32,700 --> 00:11:34,380
+roughly speaking an optic with a trail
+
+306
+00:11:34,380 --> 00:11:37,680
+ratio value above 0.83 is considered to
+
+307
+00:11:37,680 --> 00:11:40,560
+be diffraction Limited what this doesn't
+
+308
+00:11:40,560 --> 00:11:42,600
+mean is that the optic is performing
+
+309
+00:11:42,600 --> 00:11:44,880
+perfectly in this region it just means
+
+310
+00:11:44,880 --> 00:11:47,579
+that the dominant factor for reduced
+
+311
+00:11:47,579 --> 00:11:50,040
+sharpness is because of diffraction for
+
+312
+00:11:50,040 --> 00:11:51,839
+example because of a limited aperture
+
+313
+00:11:51,839 --> 00:11:53,579
+and to a lesser degrees due to
+
+314
+00:11:53,579 --> 00:11:55,740
+imperfections and things like a surface
+
+315
+00:11:55,740 --> 00:11:59,279
+shape so in a sense the value of 0.83 is
+
+316
+00:11:59,279 --> 00:12:01,140
+similar to stating that a quarter
+
+317
+00:12:01,140 --> 00:12:02,760
+overlapped up Peak to Value wavefront
+
+318
+00:12:02,760 --> 00:12:05,100
+error is diffraction limited because
+
+319
+00:12:05,100 --> 00:12:07,200
+both these values are kind of arbitrary
+
+320
+00:12:07,200 --> 00:12:09,180
+definitions of what is meant by
+
+321
+00:12:09,180 --> 00:12:11,640
+diffraction Limited
+
+322
+00:12:11,640 --> 00:12:13,980
+so our reference surface turns out to be
+
+323
+00:12:13,980 --> 00:12:16,140
+very accurate as we can conclude from
+
+324
+00:12:16,140 --> 00:12:18,300
+both this Trail value as well as from
+
+325
+00:12:18,300 --> 00:12:20,579
+the peak to Valley wavefront error but
+
+326
+00:12:20,579 --> 00:12:22,440
+of course that is kind of essential if
+
+327
+00:12:22,440 --> 00:12:24,180
+you want to use it to measure Optical
+
+328
+00:12:24,180 --> 00:12:26,820
+quality of other objects in the high end
+
+329
+00:12:26,820 --> 00:12:29,660
+of the range
+
+330
+00:12:30,000 --> 00:12:31,500
+the first thing we're going to measure
+
+331
+00:12:31,500 --> 00:12:33,300
+is the surface shape of this spherical
+
+332
+00:12:33,300 --> 00:12:36,899
+zero deer mirror it's about 250
+
+333
+00:12:36,899 --> 00:12:38,880
+millimeters in diameter and it has a
+
+334
+00:12:38,880 --> 00:12:42,360
+radius of curvature of 350 millimeters I
+
+335
+00:12:42,360 --> 00:12:44,459
+bought the mirror about 10 years ago on
+
+336
+00:12:44,459 --> 00:12:47,399
+eBay for around 100 euros the reflective
+
+337
+00:12:47,399 --> 00:12:49,800
+coating was in pretty bad shape so I
+
+338
+00:12:49,800 --> 00:12:52,019
+removed it but the remaining surface
+
+339
+00:12:52,019 --> 00:12:54,060
+reflectivity is four percent which is
+
+340
+00:12:54,060 --> 00:12:56,940
+ideal in this test setup the mirror
+
+341
+00:12:56,940 --> 00:12:59,459
+itself is from a 1970s broken Elmer
+
+342
+00:12:59,459 --> 00:13:01,440
+wafer scanner system and this was the
+
+343
+00:13:01,440 --> 00:13:03,420
+first commercial photolithographic
+
+344
+00:13:03,420 --> 00:13:05,880
+system that used non-contact exposure of
+
+345
+00:13:05,880 --> 00:13:08,160
+silicon Wafers so given its original
+
+346
+00:13:08,160 --> 00:13:10,500
+application you'd expect this mirror to
+
+347
+00:13:10,500 --> 00:13:13,200
+be quite accurate
+
+348
+00:13:13,200 --> 00:13:15,420
+the way we measure this mirror is with
+
+349
+00:13:15,420 --> 00:13:17,579
+the focus of the reference element in
+
+350
+00:13:17,579 --> 00:13:19,500
+the center of the radius of curvature of
+
+351
+00:13:19,500 --> 00:13:21,899
+the mirror so the tightly focused Light
+
+352
+00:13:21,899 --> 00:13:24,240
+Beam from the interferometer expands and
+
+353
+00:13:24,240 --> 00:13:26,639
+then reflects off the mirror surface and
+
+354
+00:13:26,639 --> 00:13:28,440
+then returns along approximately the
+
+355
+00:13:28,440 --> 00:13:30,480
+same path and is recombined with the
+
+356
+00:13:30,480 --> 00:13:32,100
+spherical reference wavefront that
+
+357
+00:13:32,100 --> 00:13:34,560
+reflects off the reference element and
+
+358
+00:13:34,560 --> 00:13:36,720
+any deviations from spherical in the
+
+359
+00:13:36,720 --> 00:13:38,820
+mirror surface will cause phase shifts
+
+360
+00:13:38,820 --> 00:13:40,500
+between the light reflecting of the
+
+361
+00:13:40,500 --> 00:13:41,880
+mirror surface and the spherical
+
+362
+00:13:41,880 --> 00:13:43,980
+reference and this can then be observed
+
+363
+00:13:43,980 --> 00:13:46,079
+as interference
+
+364
+00:13:46,079 --> 00:13:48,480
+here are a few typical interferograms
+
+365
+00:13:48,480 --> 00:13:50,279
+that were measured with this mirror
+
+366
+00:13:50,279 --> 00:13:52,380
+under a slight tilt and even though the
+
+367
+00:13:52,380 --> 00:13:54,360
+mirror is strongly curved you can
+
+368
+00:13:54,360 --> 00:13:56,519
+observe that in the measurements it only
+
+369
+00:13:56,519 --> 00:13:58,740
+covers about half the diameter of the
+
+370
+00:13:58,740 --> 00:14:00,899
+total measurement area available this
+
+371
+00:14:00,899 --> 00:14:03,120
+makes our accuracy of measurement much
+
+372
+00:14:03,120 --> 00:14:06,540
+higher than a 20th of a wavelength
+
+373
+00:14:06,540 --> 00:14:08,220
+so from the interferograms just
+
+374
+00:14:08,220 --> 00:14:09,779
+collected the waveform differences
+
+375
+00:14:09,779 --> 00:14:11,639
+between the mirror surface and that of
+
+376
+00:14:11,639 --> 00:14:13,740
+the reference element is calculated in
+
+377
+00:14:13,740 --> 00:14:16,019
+DFD Fringe and you can see that the peak
+
+378
+00:14:16,019 --> 00:14:18,120
+to Value accuracy of this mirror itself
+
+379
+00:14:18,120 --> 00:14:21,300
+is around one tenth of a wavelength now
+
+380
+00:14:21,300 --> 00:14:23,639
+in terms of surface shape accuracy this
+
+381
+00:14:23,639 --> 00:14:25,620
+means that the mirror never deviates
+
+382
+00:14:25,620 --> 00:14:28,079
+more than around 30 nanometers of that
+
+383
+00:14:28,079 --> 00:14:30,300
+of a perfect sphere
+
+384
+00:14:30,300 --> 00:14:32,279
+anyway being able to measure with this
+
+385
+00:14:32,279 --> 00:14:33,959
+level of precision is actually pretty
+
+386
+00:14:33,959 --> 00:14:36,360
+cool and it gave me confidence that the
+
+387
+00:14:36,360 --> 00:14:38,760
+instrument performs as expected
+
+388
+00:14:38,760 --> 00:14:40,500
+by the way if you've ever tried to make
+
+389
+00:14:40,500 --> 00:14:42,839
+a telescope Mirror by hand yourself you
+
+390
+00:14:42,839 --> 00:14:45,060
+might observe something familiar in the
+
+391
+00:14:45,060 --> 00:14:47,820
+wavefront plot The Mirror Has a slightly
+
+392
+00:14:47,820 --> 00:14:50,220
+turned down Edge although this one's
+
+393
+00:14:50,220 --> 00:14:54,600
+very small around 15 nanometers or so
+
+394
+00:14:54,600 --> 00:14:56,459
+next on the list of items to test is
+
+395
+00:14:56,459 --> 00:15:00,480
+this Canon FD 55 millimeter F 1.2 lens
+
+396
+00:15:00,480 --> 00:15:03,300
+this is a rather famous vintage lens in
+
+397
+00:15:03,300 --> 00:15:04,980
+the sense that it was actually the first
+
+398
+00:15:04,980 --> 00:15:07,139
+consumer lens containing an aspherical
+
+399
+00:15:07,139 --> 00:15:08,160
+element
+
+400
+00:15:08,160 --> 00:15:11,459
+with its F 1.2 aperture it's very light
+
+401
+00:15:11,459 --> 00:15:13,620
+sensitive and therefore well suited for
+
+402
+00:15:13,620 --> 00:15:16,620
+indoor photography without using a flash
+
+403
+00:15:16,620 --> 00:15:18,300
+the earliest versions of this lens
+
+404
+00:15:18,300 --> 00:15:21,180
+introduced in 1971 contained radioactive
+
+405
+00:15:21,180 --> 00:15:23,459
+thorium oxide but this one which was
+
+406
+00:15:23,459 --> 00:15:25,980
+bought by my father in March of 1980
+
+407
+00:15:25,980 --> 00:15:28,620
+does not contain thorium therefore it
+
+408
+00:15:28,620 --> 00:15:30,660
+also does not display the characteristic
+
+409
+00:15:30,660 --> 00:15:32,639
+radiation Browning observed in
+
+410
+00:15:32,639 --> 00:15:35,399
+radioactive lenses and on top of that it
+
+411
+00:15:35,399 --> 00:15:37,500
+has lift in the Box most of it's live so
+
+412
+00:15:37,500 --> 00:15:40,560
+it's a nearly pristine condition
+
+413
+00:15:40,560 --> 00:15:42,660
+for testing the waveform deformation in
+
+414
+00:15:42,660 --> 00:15:44,579
+this lens we utilize a configuration
+
+415
+00:15:44,579 --> 00:15:46,680
+called Auto collimation which is
+
+416
+00:15:46,680 --> 00:15:49,079
+schematically depicted here because the
+
+417
+00:15:49,079 --> 00:15:50,699
+light passes through the lens twice in
+
+418
+00:15:50,699 --> 00:15:52,800
+this test many aberrations are measured
+
+419
+00:15:52,800 --> 00:15:54,779
+to be twice as large as they would be
+
+420
+00:15:54,779 --> 00:15:56,940
+with a single pass so when this
+
+421
+00:15:56,940 --> 00:15:59,459
+configuration is used it requires us to
+
+422
+00:15:59,459 --> 00:16:01,139
+interpret The Fringe spacing as
+
+423
+00:16:01,139 --> 00:16:03,660
+equivalent to only 0.5 wavelength
+
+424
+00:16:03,660 --> 00:16:06,720
+instead of one wavelength
+
+425
+00:16:06,720 --> 00:16:09,000
+before I show you the results of the
+
+426
+00:16:09,000 --> 00:16:10,800
+measurement I should mention that doing
+
+427
+00:16:10,800 --> 00:16:13,380
+away front measurement on a lens is not
+
+428
+00:16:13,380 --> 00:16:15,959
+in any way representative for overall
+
+429
+00:16:15,959 --> 00:16:18,839
+lens performance basically we're testing
+
+430
+00:16:18,839 --> 00:16:20,940
+with only one particular wavelength of
+
+431
+00:16:20,940 --> 00:16:23,579
+light on the optical axis with the focus
+
+432
+00:16:23,579 --> 00:16:25,860
+setting to Infinity so factors like
+
+433
+00:16:25,860 --> 00:16:27,959
+chromatic aberrations of axis
+
+434
+00:16:27,959 --> 00:16:30,120
+performance in the image field and at
+
+435
+00:16:30,120 --> 00:16:32,699
+proximity are not included in this test
+
+436
+00:16:32,699 --> 00:16:34,740
+I've actually made a video on how to
+
+437
+00:16:34,740 --> 00:16:36,899
+quantitatively measure all these aspects
+
+438
+00:16:36,899 --> 00:16:38,940
+using another method and obtain a more
+
+439
+00:16:38,940 --> 00:16:41,459
+holistic performance but even with all
+
+440
+00:16:41,459 --> 00:16:43,019
+the limitations I think it's worthwhile
+
+441
+00:16:43,019 --> 00:16:45,060
+to take a look at the wavefront error
+
+442
+00:16:45,060 --> 00:16:47,820
+that this lens introduces
+
+443
+00:16:47,820 --> 00:16:49,920
+so here is the wavefront error of the
+
+444
+00:16:49,920 --> 00:16:52,019
+lens at its full aperture and as you can
+
+445
+00:16:52,019 --> 00:16:54,720
+see it's actually pretty large the total
+
+446
+00:16:54,720 --> 00:16:56,820
+peaked Valley wavefront error is more
+
+447
+00:16:56,820 --> 00:16:58,920
+than three lobda and the most apparent
+
+448
+00:16:58,920 --> 00:17:01,440
+errors are spherical aberration and some
+
+449
+00:17:01,440 --> 00:17:03,180
+astigmatism
+
+450
+00:17:03,180 --> 00:17:05,220
+the streel ratio is actually quite
+
+451
+00:17:05,220 --> 00:17:06,780
+disappointing as well
+
+452
+00:17:06,780 --> 00:17:09,059
+now as a consequence this lens can never
+
+453
+00:17:09,059 --> 00:17:10,980
+provide High sharpness images at the
+
+454
+00:17:10,980 --> 00:17:12,599
+maximum aperture
+
+455
+00:17:12,599 --> 00:17:14,400
+now it's interesting to see what happens
+
+456
+00:17:14,400 --> 00:17:16,500
+if we limit the aperture of this lens to
+
+457
+00:17:16,500 --> 00:17:19,079
+let's say F4 and by doing that we'll
+
+458
+00:17:19,079 --> 00:17:21,900
+lose a lot of light about 90 percent but
+
+459
+00:17:21,900 --> 00:17:23,640
+this also limits the wavefront error to
+
+460
+00:17:23,640 --> 00:17:25,559
+the one present in this central part
+
+461
+00:17:25,559 --> 00:17:28,199
+here so if we do the same wavefront
+
+462
+00:17:28,199 --> 00:17:30,660
+analysis at F4 suddenly the lens
+
+463
+00:17:30,660 --> 00:17:32,940
+performs the fraction limited because
+
+464
+00:17:32,940 --> 00:17:36,299
+reducing aperture to F4 eliminates
+
+465
+00:17:36,299 --> 00:17:38,460
+almost all of the spherical error and
+
+466
+00:17:38,460 --> 00:17:40,500
+astigmatism which is present in the
+
+467
+00:17:40,500 --> 00:17:43,640
+wavefront at full aperture
+
+468
+00:17:43,640 --> 00:17:46,380
+here's a comparison of the text on a
+
+469
+00:17:46,380 --> 00:17:50,100
+permanent marker shot with f 1.2 and f4
+
+470
+00:17:50,100 --> 00:17:53,460
+on an aps-c sensor it's clear that the
+
+471
+00:17:53,460 --> 00:17:55,020
+three laptop wavefront arrow is
+
+472
+00:17:55,020 --> 00:17:57,120
+influencing the sharpness and contrast
+
+473
+00:17:57,120 --> 00:18:00,120
+pretty badly so I guess the only way to
+
+474
+00:18:00,120 --> 00:18:01,980
+use this lens effectively is to always
+
+475
+00:18:01,980 --> 00:18:04,380
+set it to a smaller aperture whenever
+
+476
+00:18:04,380 --> 00:18:05,480
+there's sufficient light available
+
+477
+00:18:05,480 --> 00:18:07,919
+otherwise you'll end up with very soft
+
+478
+00:18:07,919 --> 00:18:10,220
+images
+
+479
+00:18:10,679 --> 00:18:14,880
+the Canon EF 24 to 105 millimeters full
+
+480
+00:18:14,880 --> 00:18:17,880
+frame zoom lens is next on our list I
+
+481
+00:18:17,880 --> 00:18:19,440
+just want to take a very brief look at
+
+482
+00:18:19,440 --> 00:18:21,539
+it mainly because I sometimes use it for
+
+483
+00:18:21,539 --> 00:18:23,880
+my YouTube videos with its maximum
+
+484
+00:18:23,880 --> 00:18:26,520
+aperture of f4 over the whole Zoom range
+
+485
+00:18:26,520 --> 00:18:29,400
+it's not particularly Photon hungry but
+
+486
+00:18:29,400 --> 00:18:31,620
+it always produces excellent image
+
+487
+00:18:31,620 --> 00:18:33,240
+sharpness which made me curious about
+
+488
+00:18:33,240 --> 00:18:35,940
+how small the wavefront errors in a high
+
+489
+00:18:35,940 --> 00:18:38,580
+quality lens actually are
+
+490
+00:18:38,580 --> 00:18:41,280
+it was measured in the same way as the F
+
+491
+00:18:41,280 --> 00:18:44,220
+1.2 lens so in outer collimation and
+
+492
+00:18:44,220 --> 00:18:46,500
+here are the wavefront errors at the
+
+493
+00:18:46,500 --> 00:18:48,720
+focal length settings of 24 millimeters
+
+494
+00:18:48,720 --> 00:18:52,500
+50 millimeters and 105 millimeters the
+
+495
+00:18:52,500 --> 00:18:55,080
+largest waveform errors are found at 105
+
+496
+00:18:55,080 --> 00:18:56,820
+millimeters focal distance where this
+
+497
+00:18:56,820 --> 00:18:59,880
+Trail ratio has dropped to 0.6 which by
+
+498
+00:18:59,880 --> 00:19:02,280
+the way is still a very decent value for
+
+499
+00:19:02,280 --> 00:19:03,600
+a lens
+
+500
+00:19:03,600 --> 00:19:05,460
+in the center of the range its
+
+501
+00:19:05,460 --> 00:19:06,840
+performance is basically diffraction
+
+502
+00:19:06,840 --> 00:19:09,900
+limited so concluding this lens performs
+
+503
+00:19:09,900 --> 00:19:12,480
+well in the full Zoom range that is of
+
+504
+00:19:12,480 --> 00:19:14,880
+course within all the limitations of the
+
+505
+00:19:14,880 --> 00:19:17,780
+current testing method
+
+506
+00:19:18,000 --> 00:19:20,039
+if you made it this far into the video
+
+507
+00:19:20,039 --> 00:19:22,200
+you're probably more than averagely
+
+508
+00:19:22,200 --> 00:19:24,660
+interested in Optics so for this last
+
+509
+00:19:24,660 --> 00:19:26,640
+part I thought I'd present measurements
+
+510
+00:19:26,640 --> 00:19:29,400
+that I did on microscope objectives all
+
+511
+00:19:29,400 --> 00:19:31,080
+objectives presented here are so called
+
+512
+00:19:31,080 --> 00:19:33,299
+Infinity corrected objectives and this
+
+513
+00:19:33,299 --> 00:19:35,100
+means that they are designed to work in
+
+514
+00:19:35,100 --> 00:19:37,620
+combination with a so-called tube lens
+
+515
+00:19:37,620 --> 00:19:39,660
+rather than create an image directly
+
+516
+00:19:39,660 --> 00:19:42,179
+like is the case with proximity
+
+517
+00:19:42,179 --> 00:19:43,679
+corrected objectives
+
+518
+00:19:43,679 --> 00:19:45,960
+since Infinity corrected objectives
+
+519
+00:19:45,960 --> 00:19:48,600
+basically project their image at
+
+520
+00:19:48,600 --> 00:19:51,299
+Infinity this allows us to correctly use
+
+521
+00:19:51,299 --> 00:19:53,220
+the outer collimation configuration for
+
+522
+00:19:53,220 --> 00:19:55,080
+testing
+
+523
+00:19:55,080 --> 00:19:57,539
+unlike camera lenses microscope
+
+524
+00:19:57,539 --> 00:20:00,059
+objectives aren't specified by focal
+
+525
+00:20:00,059 --> 00:20:02,280
+length and maximal focal distance to
+
+526
+00:20:02,280 --> 00:20:04,500
+aperture ratio instead they're
+
+527
+00:20:04,500 --> 00:20:06,780
+characterized by magnification and
+
+528
+00:20:06,780 --> 00:20:09,120
+numerical aperture and I'll very briefly
+
+529
+00:20:09,120 --> 00:20:12,799
+discuss these two aspects first
+
+530
+00:20:12,799 --> 00:20:15,000
+magnification describes the ratio
+
+531
+00:20:15,000 --> 00:20:17,400
+between the object size and the image
+
+532
+00:20:17,400 --> 00:20:19,080
+size that a particular microscope
+
+533
+00:20:19,080 --> 00:20:21,660
+objective is designed for you can of
+
+534
+00:20:21,660 --> 00:20:23,039
+course try to use it at a different
+
+535
+00:20:23,039 --> 00:20:25,500
+magnification by changing both the lens
+
+536
+00:20:25,500 --> 00:20:27,299
+object distance and the lens image
+
+537
+00:20:27,299 --> 00:20:30,059
+distance but if you do that it will not
+
+538
+00:20:30,059 --> 00:20:32,160
+perform optimally and this is important
+
+539
+00:20:32,160 --> 00:20:34,020
+because microscope Optics is required to
+
+540
+00:20:34,020 --> 00:20:35,700
+work close to the theoretical best
+
+541
+00:20:35,700 --> 00:20:36,780
+performance
+
+542
+00:20:36,780 --> 00:20:38,760
+so in this sense a microscope objective
+
+543
+00:20:38,760 --> 00:20:40,320
+is a bit different from a camera lens
+
+544
+00:20:40,320 --> 00:20:42,299
+which is basically designed to give you
+
+545
+00:20:42,299 --> 00:20:45,059
+acceptable image quality over a wide
+
+546
+00:20:45,059 --> 00:20:48,539
+range of object to lens distances
+
+547
+00:20:48,539 --> 00:20:51,360
+now specifying a high magnification is
+
+548
+00:20:51,360 --> 00:20:53,460
+only useful if the sharpness in the
+
+549
+00:20:53,460 --> 00:20:55,380
+image keeps up with the magnification
+
+550
+00:20:55,380 --> 00:20:57,960
+that is specified and that is why the
+
+551
+00:20:57,960 --> 00:21:00,600
+magnification and numerical aperture of
+
+552
+00:21:00,600 --> 00:21:03,299
+objectives are related because numerical
+
+553
+00:21:03,299 --> 00:21:05,640
+aperture is a key parameter for
+
+554
+00:21:05,640 --> 00:21:09,059
+resolving small features
+
+555
+00:21:09,059 --> 00:21:11,520
+by definition the numerical aperture is
+
+556
+00:21:11,520 --> 00:21:13,860
+equal to the refractive index of the
+
+557
+00:21:13,860 --> 00:21:16,320
+medium that contains the object times
+
+558
+00:21:16,320 --> 00:21:19,380
+the sine of the maximum angle Theta at
+
+559
+00:21:19,380 --> 00:21:21,179
+which light originating from the object
+
+560
+00:21:21,179 --> 00:21:23,340
+can be captured this means that
+
+561
+00:21:23,340 --> 00:21:25,860
+numerical aperture increases with the
+
+562
+00:21:25,860 --> 00:21:28,020
+refractive index of the medium and with
+
+563
+00:21:28,020 --> 00:21:30,179
+the value of theta
+
+564
+00:21:30,179 --> 00:21:31,980
+now since all the objectives I will
+
+565
+00:21:31,980 --> 00:21:33,960
+discuss today are intended for using air
+
+566
+00:21:33,960 --> 00:21:36,900
+and not in water or oil we can simplify
+
+567
+00:21:36,900 --> 00:21:38,820
+things because the refractive index of
+
+568
+00:21:38,820 --> 00:21:41,039
+air is around one
+
+569
+00:21:41,039 --> 00:21:42,780
+so for now we can just ignore the
+
+570
+00:21:42,780 --> 00:21:44,640
+refractive index which means that the
+
+571
+00:21:44,640 --> 00:21:46,080
+numerical aperture in all cases
+
+572
+00:21:46,080 --> 00:21:48,840
+discussed here is just equal to the sine
+
+573
+00:21:48,840 --> 00:21:50,700
+of theta
+
+574
+00:21:50,700 --> 00:21:52,919
+the exact reason why numerical aperture
+
+575
+00:21:52,919 --> 00:21:54,659
+is the key parameter for achieving a
+
+576
+00:21:54,659 --> 00:21:57,179
+high sharpness is quite fascinating but
+
+577
+00:21:57,179 --> 00:21:58,980
+it's kind of a rabbit hole which I don't
+
+578
+00:21:58,980 --> 00:22:00,539
+want to dive in now
+
+579
+00:22:00,539 --> 00:22:03,539
+today I will just show you the formula
+
+580
+00:22:03,539 --> 00:22:05,640
+so the size of the smallest features
+
+581
+00:22:05,640 --> 00:22:07,740
+that can theoretically be resolved by a
+
+582
+00:22:07,740 --> 00:22:09,720
+microscope objective are proportional to
+
+583
+00:22:09,720 --> 00:22:12,500
+a constant times the wavelength of light
+
+584
+00:22:12,500 --> 00:22:15,419
+divided by the numerical aperture and
+
+585
+00:22:15,419 --> 00:22:17,400
+this means that it's possible to resolve
+
+586
+00:22:17,400 --> 00:22:19,440
+smaller features by either using a
+
+587
+00:22:19,440 --> 00:22:21,780
+shorter wavelength of light or use a
+
+588
+00:22:21,780 --> 00:22:24,120
+higher numerical aperture
+
+589
+00:22:24,120 --> 00:22:26,159
+this relationship explains why
+
+590
+00:22:26,159 --> 00:22:28,740
+magnification and numerical aperture are
+
+591
+00:22:28,740 --> 00:22:31,080
+so closely related in the specification
+
+592
+00:22:31,080 --> 00:22:32,940
+of microscope objectives because
+
+593
+00:22:32,940 --> 00:22:34,980
+attempting to pair a high magnification
+
+594
+00:22:34,980 --> 00:22:37,380
+with a low numerical aperture is pretty
+
+595
+00:22:37,380 --> 00:22:39,480
+useless it will just result in a
+
+596
+00:22:39,480 --> 00:22:43,080
+magnified image of pore sharpness
+
+597
+00:22:43,080 --> 00:22:45,240
+let's have a look at the measurements on
+
+598
+00:22:45,240 --> 00:22:47,700
+this Nikon 10 times objective with a
+
+599
+00:22:47,700 --> 00:22:50,700
+numerical aperture of 0.3 here is an
+
+600
+00:22:50,700 --> 00:22:52,620
+image of the wavefront error of this
+
+601
+00:22:52,620 --> 00:22:54,780
+objective and it shows us that the
+
+602
+00:22:54,780 --> 00:22:57,299
+errors are in fact very small the
+
+603
+00:22:57,299 --> 00:22:59,280
+wavefront is accurate within seven
+
+604
+00:22:59,280 --> 00:23:01,080
+hundredths of a wavelength for the
+
+605
+00:23:01,080 --> 00:23:03,900
+entire aperture and this Trail is 0.99
+
+606
+00:23:03,900 --> 00:23:06,480
+which is looking great so the major
+
+607
+00:23:06,480 --> 00:23:08,400
+contribution of the surface area is
+
+608
+00:23:08,400 --> 00:23:10,020
+actually a very slight spherical
+
+609
+00:23:10,020 --> 00:23:13,080
+aberration but all in all it's really a
+
+610
+00:23:13,080 --> 00:23:15,600
+top quality piece
+
+611
+00:23:15,600 --> 00:23:17,760
+now let's examine a different objective
+
+612
+00:23:17,760 --> 00:23:20,640
+like this 20 times Leica flu or tar with
+
+613
+00:23:20,640 --> 00:23:23,400
+a numerical aperture of 0.5 and do the
+
+614
+00:23:23,400 --> 00:23:25,260
+same waveform measurement
+
+615
+00:23:25,260 --> 00:23:27,600
+interestingly the spherical aberration
+
+616
+00:23:27,600 --> 00:23:29,640
+in this objective is noticeably more
+
+617
+00:23:29,640 --> 00:23:33,059
+pronounced both the peaked Valley Arrow
+
+618
+00:23:33,059 --> 00:23:35,580
+as well as a strail ratio is only just
+
+619
+00:23:35,580 --> 00:23:37,380
+on the good side of the diffraction
+
+620
+00:23:37,380 --> 00:23:40,020
+limit now it might be tempting to
+
+621
+00:23:40,020 --> 00:23:41,760
+conclude that this objective is not as
+
+622
+00:23:41,760 --> 00:23:43,500
+good as the previous one but that's
+
+623
+00:23:43,500 --> 00:23:45,600
+actually not the case the reason behind
+
+624
+00:23:45,600 --> 00:23:47,940
+the spherical aberration is in this
+
+625
+00:23:47,940 --> 00:23:50,039
+particular number that can be found on
+
+626
+00:23:50,039 --> 00:23:52,679
+the objective the number represents the
+
+627
+00:23:52,679 --> 00:23:54,299
+optimum coverslip thickness in
+
+628
+00:23:54,299 --> 00:23:57,299
+millimeters for this objective
+
+629
+00:23:57,299 --> 00:23:59,640
+so what the manufacturer assumes is that
+
+630
+00:23:59,640 --> 00:24:01,440
+you're going to use a glass coverslip
+
+631
+00:24:01,440 --> 00:24:03,900
+when you use your microscope and it has
+
+632
+00:24:03,900 --> 00:24:05,820
+therefore already compensated the
+
+633
+00:24:05,820 --> 00:24:08,460
+optical properties for a specific glass
+
+634
+00:24:08,460 --> 00:24:09,600
+thickness
+
+635
+00:24:09,600 --> 00:24:13,200
+now you might think huh 0.70 millimeters
+
+636
+00:24:13,200 --> 00:24:15,179
+of glass thickness how is that ever
+
+637
+00:24:15,179 --> 00:24:17,880
+going to influence the focus and indeed
+
+638
+00:24:17,880 --> 00:24:20,400
+with low numerical aperture Optics there
+
+639
+00:24:20,400 --> 00:24:22,860
+will generally not be a problem however
+
+640
+00:24:22,860 --> 00:24:25,260
+with increasing numerical aperture even
+
+641
+00:24:25,260 --> 00:24:28,020
+a gloss plate this thin can introduce a
+
+642
+00:24:28,020 --> 00:24:30,419
+significant spherical abrasion this is
+
+643
+00:24:30,419 --> 00:24:32,400
+Illustrated in this Ray tracing figure
+
+644
+00:24:32,400 --> 00:24:36,179
+for a numerical aperture of 0.7 in a
+
+645
+00:24:36,179 --> 00:24:38,640
+perfect optic all rays will end in a
+
+646
+00:24:38,640 --> 00:24:41,220
+single point but add a cover gloss and
+
+647
+00:24:41,220 --> 00:24:43,320
+certainly the area where the Rays end up
+
+648
+00:24:43,320 --> 00:24:46,500
+has significant size
+
+649
+00:24:46,500 --> 00:24:48,179
+now of course the previous waveform
+
+650
+00:24:48,179 --> 00:24:49,980
+measurement was done without a cover
+
+651
+00:24:49,980 --> 00:24:52,799
+slip so the question is what happens if
+
+652
+00:24:52,799 --> 00:24:55,679
+we add a cover slip in the light path I
+
+653
+00:24:55,679 --> 00:24:57,539
+quickly try this with a gloss thickness
+
+654
+00:24:57,539 --> 00:25:00,419
+of 0.60 millimeters so quite close to
+
+655
+00:25:00,419 --> 00:25:02,760
+the optimum value and it resulted in
+
+656
+00:25:02,760 --> 00:25:04,559
+this measurement it reduced the
+
+657
+00:25:04,559 --> 00:25:06,900
+spherical aberration quite a bit and so
+
+658
+00:25:06,900 --> 00:25:08,940
+this is something to realize when you
+
+659
+00:25:08,940 --> 00:25:10,980
+use a high numerical aperture objective
+
+660
+00:25:10,980 --> 00:25:13,860
+that it can only perform at its Peak
+
+661
+00:25:13,860 --> 00:25:15,600
+Performance when used in combination
+
+662
+00:25:15,600 --> 00:25:19,440
+with the cover slip thickness specified
+
+663
+00:25:19,440 --> 00:25:21,840
+so a few years ago I bought this
+
+664
+00:25:21,840 --> 00:25:25,140
+unmarked Nikon 20 times blonde Apple OEM
+
+665
+00:25:25,140 --> 00:25:28,140
+objective for use in my maskless wafer
+
+666
+00:25:28,140 --> 00:25:30,360
+stepper these Nikon objectives can be
+
+667
+00:25:30,360 --> 00:25:32,700
+purchased on eBay for around a hundred
+
+668
+00:25:32,700 --> 00:25:35,400
+dollars a piece and are widely available
+
+669
+00:25:35,400 --> 00:25:37,380
+it was in perfect shape when it got here
+
+670
+00:25:37,380 --> 00:25:39,659
+but when I started using it something
+
+671
+00:25:39,659 --> 00:25:42,419
+was a bit off depending on how I use it
+
+672
+00:25:42,419 --> 00:25:43,620
+exactly
+
+673
+00:25:43,620 --> 00:25:45,419
+now when I published the video on the
+
+674
+00:25:45,419 --> 00:25:47,460
+Master's waiver stepper people at the
+
+675
+00:25:47,460 --> 00:25:49,520
+Forum called photo
+
+676
+00:25:49,520 --> 00:25:52,260
+macrography.net made me aware of the
+
+677
+00:25:52,260 --> 00:25:54,000
+fact that these particular types of
+
+678
+00:25:54,000 --> 00:25:56,100
+objectives aren't optically the same as
+
+679
+00:25:56,100 --> 00:25:58,320
+the corresponding standard Nikon
+
+680
+00:25:58,320 --> 00:26:00,179
+microscope objectives they're actually
+
+681
+00:26:00,179 --> 00:26:03,000
+modified versions that are designed for
+
+682
+00:26:03,000 --> 00:26:05,039
+a different cover slip thickness
+
+683
+00:26:05,039 --> 00:26:07,020
+the forms that on this subject mentioned
+
+684
+00:26:07,020 --> 00:26:08,760
+that these perform better when used in
+
+685
+00:26:08,760 --> 00:26:10,440
+combination with two or three cover
+
+686
+00:26:10,440 --> 00:26:12,600
+slips and since I now have an
+
+687
+00:26:12,600 --> 00:26:14,820
+interferometer available let's see if we
+
+688
+00:26:14,820 --> 00:26:18,740
+can narrow this value down a bit further
+
+689
+00:26:18,840 --> 00:26:20,760
+here is the spherical aberration of the
+
+690
+00:26:20,760 --> 00:26:22,919
+objective without a cover slip the
+
+691
+00:26:22,919 --> 00:26:25,559
+wavefront error is one lobda so without
+
+692
+00:26:25,559 --> 00:26:27,600
+a correction it will certainly perform
+
+693
+00:26:27,600 --> 00:26:29,039
+very poorly
+
+694
+00:26:29,039 --> 00:26:31,020
+and here I summarize the individual
+
+695
+00:26:31,020 --> 00:26:33,960
+wavefront measurements for zero
+
+696
+00:26:33,960 --> 00:26:36,419
+one two
+
+697
+00:26:36,419 --> 00:26:39,720
+three and four cover slips
+
+698
+00:26:39,720 --> 00:26:41,460
+I think the effect of adding more glass
+
+699
+00:26:41,460 --> 00:26:42,779
+is pretty clear
+
+700
+00:26:42,779 --> 00:26:44,700
+now you can see that the wavefront error
+
+701
+00:26:44,700 --> 00:26:47,039
+sort of flips over between two and three
+
+702
+00:26:47,039 --> 00:26:50,220
+coverslips of glass thickness
+
+703
+00:26:50,220 --> 00:26:52,440
+now what we can do is take for example
+
+704
+00:26:52,440 --> 00:26:54,600
+the peak to Value spherical abrasion
+
+705
+00:26:54,600 --> 00:26:56,220
+from these measurements and plot the
+
+706
+00:26:56,220 --> 00:26:57,720
+values as a function of the glass
+
+707
+00:26:57,720 --> 00:27:00,000
+thickness in a graph and by fitting a
+
+708
+00:27:00,000 --> 00:27:02,820
+line through these data we find that a
+
+709
+00:27:02,820 --> 00:27:04,940
+minimum aberration is found at around
+
+710
+00:27:04,940 --> 00:27:08,520
+0.42 or 0.43 millimeters and this
+
+711
+00:27:08,520 --> 00:27:10,620
+thickness is right between two and three
+
+712
+00:27:10,620 --> 00:27:12,539
+copper slips like was stated on the
+
+713
+00:27:12,539 --> 00:27:14,580
+Forum here is a similar graph that I
+
+714
+00:27:14,580 --> 00:27:17,100
+made for the maximum still ratio which
+
+715
+00:27:17,100 --> 00:27:19,620
+actually yields exactly the same outcome
+
+716
+00:27:19,620 --> 00:27:23,460
+so if we were to add 0.42 millimeters of
+
+717
+00:27:23,460 --> 00:27:25,679
+glass sheet when using it we can
+
+718
+00:27:25,679 --> 00:27:27,059
+effectively get rid of the huge
+
+719
+00:27:27,059 --> 00:27:29,100
+spherical aberration completely and use
+
+720
+00:27:29,100 --> 00:27:30,720
+this objective at its maximum
+
+721
+00:27:30,720 --> 00:27:33,480
+performance level again
+
+722
+00:27:33,480 --> 00:27:36,059
+okay we finally come to the end of the
+
+723
+00:27:36,059 --> 00:27:38,400
+video I hope I gave you some ideas of
+
+724
+00:27:38,400 --> 00:27:40,080
+how interferometry can be used for
+
+725
+00:27:40,080 --> 00:27:42,480
+optical testing anyway thanks for
+
+726
+00:27:42,480 --> 00:27:44,760
+watching
+
+727
+00:27:44,760 --> 00:27:46,900
+foreign
+
+728
+00:27:46,900 --> 00:28:10,509
+[Music]
+

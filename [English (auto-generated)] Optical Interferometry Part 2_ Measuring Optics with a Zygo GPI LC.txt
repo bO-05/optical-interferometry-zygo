@@ -1,0 +1,1456 @@
+hey everyone
+
+today I want to demonstrate how the zygo
+
+interferometer that I bought a few
+
+months ago can be used to test Optics in
+
+the previous video I explained how
+
+interferometry Works what a wavefront is
+
+and discuss the layout of the instrument
+
+if you're unfamiliar with interferometry
+
+and you haven't seen the previous video
+
+it might be a good idea to watch that
+
+one first
+
+this video became quite long so here's
+
+an overview of the contents which allows
+
+you to skip ahead if you don't want to
+
+watch everything first I'll show how I
+
+replace the original low resolution
+
+camera of the zygote with a modern IP
+
+camera to record high resolution
+
+interferograms and then we'll take a
+
+quick look at how we can use the camera
+
+in combination with the software called
+
+DFT Fringe to create detailed wavefront
+
+maps
+
+the interferometer came with a reference
+
+transmission sphere but unfortunately
+
+the waveform documentation of this item
+
+was missing so to do meaningful
+
+measurements with it we first need to
+
+establish its accuracy by performing a
+
+calibration and with that done we can
+
+test some actual Optics we'll examine
+
+the surface properties of a high quality
+
+concave wafer scanner mirror from the
+
+1970s then we'll take a look at the
+
+wavefront quality of a vintage Canon F
+
+1.2 lens from the early 1980s will do
+
+the same for a modern full-frame Canon
+
+EF zoom lens and in the last part of the
+
+video I'll show you measurements on the
+
+optical properties of a couple of
+
+microscope objectives all in all there's
+
+quite a lot to cover so let's Dive Right
+
+In
+
+as shown in the previous video the
+
+interferometer is a somewhat basic
+
+version that displayed low resolution
+
+black and white images on a monitor for
+
+visual evaluation the instrument
+
+contained two cameras one for the
+
+alignment of the Optics under test and
+
+one for displaying the interferogram
+
+both cameras had a rather limited
+
+resolution of 320 times 240 pixels now
+
+since this is not 1996 anymore we can
+
+now do quite a bit better than that
+
+for the new camera to record the
+
+interferograms I wanted to use a housed
+
+camera with some kind of Mount to be
+
+able to attach various types of lenses
+
+and if you look at the layout of the
+
+instrument there's actually plenty of
+
+space to place such a camera in the
+
+instrument right here we just need to
+
+redirect the light in the horizontal
+
+Direction so what I did was remove the
+
+old camera and the lens and then made a
+
+bracket that can hold a first surface
+
+mirror under 45 degrees and this mirror
+
+redirects the vertical beam to a
+
+horizontal one which can then be
+
+captured by the camera I tried different
+
+kinds of lenses and eventually settled
+
+on this compact 25 millimeter C mount
+
+lens that works for most situations it's
+
+able to capture the full field of the
+
+interferometer while at the same time
+
+covering a fairly large area of the
+
+camera chip but of course for specific
+
+measurements it's possible to use other
+
+lenses like lenses with a longer focal
+
+length or a variable zoom lens and this
+
+can be very useful if you want to take a
+
+look at small details in interferograms
+
+by the way I left the original alignment
+
+camera where it was because it still
+
+works fine and you actually don't need a
+
+lot of resolution to do the alignment
+
+so the original monitor is still used in
+
+the setup but only during alignment
+
+procedures
+
+for powering the IP camera I connected
+
+it to a 12 volt power supply already
+
+present in the instrument and after that
+
+there was just one more thing to do and
+
+that was bringing the camera's UTP
+
+connection to the housing of the
+
+instrument and for this purpose I used a
+
+two-sided UTP female connector one side
+
+connects to the camera the other side
+
+connects to a PC and with that the
+
+conversion is complete
+
+now I used an IDs ethernet camera for
+
+the conversion but in fact any camera
+
+will do as long as it can be accessed
+
+from a computer and the images can be
+
+stored to disk so to capture the data
+
+what I do is I align the optic to be
+
+measured such that a clear interferogram
+
+is visible with well-defined fringes it
+
+helps if the camera software has a
+
+feature to monitor the maximum Fringe
+
+intensity so that we can adjust it to
+
+within the linear dynamic range of the
+
+camera then I collect the number of
+
+interferograms with somewhat different
+
+Fringe angles and spacings and these can
+
+then serve as the basis for a wavefront
+
+analysis
+
+for the actual wavefront calculations
+
+we'll use a free software called DFT
+
+Fringe it's programmed by Dale Eason who
+
+took it upon himself to make advanced
+
+interferometry accessible to the masses
+
+it's designed with amateur telescoping
+
+in mind but as will become clear its
+
+application range is quite a bit broader
+
+than that I won't delve into all the
+
+functionality of the software instead
+
+I'll just very quickly walk you through
+
+the process of evaluating interferograms
+
+and averaging wavefronts
+
+so here is the start screen of DFT
+
+Fringe and before you can evaluate the
+
+inferiograms correctly a program
+
+requires the input of a few settings
+
+like what wavelength is used and what
+
+The Fringe spacing in the interferogram
+
+actually represents now in some
+
+configurations each Fringe represents
+
+one wavelength of phase shift but in
+
+others like in Auto collimation this
+
+value actually needs to be set to 0.5
+
+and when all the parameters are set
+
+we're basically ready to go
+
+the software gets us to our results in a
+
+few steps you start by importing a
+
+recorded interferogram and Define the
+
+areas you wish to include or exclude in
+
+the wavefront evaluation
+
+if that's done the software performs a
+
+2d Fourier transform on the selected
+
+area and allows us to do a bit of low
+
+frequency spatial filtering this
+
+filtering can for example remove low
+
+spatial frequencies that are the result
+
+of the global intensity variations due
+
+to an even illumination over the full
+
+surface and after setting the low
+
+frequency spatial filtering the image is
+
+resampled to a specific size and from
+
+this the software calculates the
+
+waveform data
+
+when the software calculates the
+
+wavefront it also fits the data to a
+
+specific set of known aberrations this
+
+feature allows for removing specific
+
+aberrations from your analysis for
+
+example tilt is generally not an
+
+aberration of interest because it
+
+describes the orientation between the
+
+reference and the wavefront under test
+
+and so it has nothing to do with the
+
+shape of either surface now DFD Fringe
+
+allows you to either include or exclude
+
+it from your analysis
+
+you can customize the presentation of
+
+the results and the scale you can also
+
+for example convert wavefront errors to
+
+surface shape errors and choose to
+
+represent them in nanometers instead of
+
+waves all in all this is a very useful
+
+tool for interferometric Fringe analysis
+
+and on top of that it can be downloaded
+
+for free
+
+in all the upcoming experiments I will
+
+use this F 0.75 transmission sphere as a
+
+reference and as I mentioned in the
+
+introduction we don't know anything
+
+about its accuracy of shape so before we
+
+can measure any meaningful results with
+
+it we need to measure the accuracy of
+
+the reference sphere first but how do we
+
+do that we could of course calibrate the
+
+surface of the transmission sphere by
+
+comparing its shape to a more precise
+
+reference surface but instead I want to
+
+show you another method known as the
+
+random Ball Method
+
+the method requires the use of a small
+
+smooth ball with a reflective surface
+
+the surface of the ball doesn't need to
+
+be perfectly spherical but I guess it
+
+helps if it's quite close to spherical
+
+now the only thing we need to do for the
+
+experiment is to measure the surface
+
+shape of the ball at many random
+
+positions with the reference sphere and
+
+then average these measurements now the
+
+reason that this works is that if you
+
+collect a lot of samples from a bowl
+
+surface even if it's far from perfect
+
+all the errors in the individual parts
+
+of the surface will eventually average
+
+out and the average will iterate to a
+
+surface equivalent of a perfect sphere
+
+and when you get to that point the only
+
+error that remains is the surface error
+
+in the reference sphere because it's
+
+systematically present in all the
+
+individual measurements
+
+you can buy these special high accuracy
+
+silicon carbide balls for this purpose
+
+and these are pretty expensive however
+
+there's a much cheaper way I just used a
+
+Precision aluminum oxide bearing ball
+
+that typically costs less than let's say
+
+25 Euros online
+
+the largest balls generally have a
+
+diameter of around 10 millimeters and
+
+have a variation in the diameter of
+
+about one micron so they're not
+
+incredibly precise but as you will see
+
+precise enough for this experiment
+
+to hold the ball I made a stand from
+
+three quarter inch bearing balls glued
+
+on top of an aluminum rod using epoxy
+
+and now we have a calibration setup
+
+ready for less than 30 Euros
+
+calibration procedure itself involves
+
+placing this ball at the center of the
+
+radius of curvature of the transmission
+
+sphere in some random orientation we
+
+record an interferogram then choose a
+
+different random area on the ball record
+
+another one and so on
+
+and here is what evaluating the results
+
+looks like in Practice What You observe
+
+is that in the individual measurements
+
+the surface area is generally larger
+
+than a quarter of lobda and it's
+
+actually all over the place and this is
+
+due to the errors present in the shape
+
+of the ball but look what happens when
+
+we start averaging these measurements
+
+after 10 measurements the error has
+
+basically dropped down to a tenth of a
+
+lobda peaked Valley and by adding more
+
+and more measurements to the average we
+
+can gradually bring this down even
+
+further until after evaluating about 50
+
+interferograms we do not see Improvement
+
+anymore in the result and at that point
+
+we know that the error that remains is
+
+basically the error in the transmission
+
+sphere reference
+
+if we look at the accuracy of shape in
+
+the spherical reference it's about 1
+
+20th of a wavelength peaked Valley and
+
+we will consider this to be the
+
+wavefront accuracy over the full area of
+
+the transmission sphere
+
+now in all the upcoming tests we will
+
+only use a small fraction of this
+
+reference surface which will make the
+
+accuracy of the tests quite a bit higher
+
+than 1 20th of a lot
+
+DFD Fringe presents the value of the
+
+strail ratio quite prominently and I
+
+actually discussed sterile ratio in
+
+another video I must admit still ratio
+
+is not the most common parameter used in
+
+the specification of the optical quality
+
+of for example lenses but for specifying
+
+wavefront performance close to the
+
+diffraction limit I think it's a very
+
+useful parameter what it describes is
+
+basically just the ratio between where
+
+wave energy actually ends up in the
+
+image compared to where it should have
+
+ended up if the optic were perfect
+
+so here's a graph of an intensity
+
+profile of an imperfect optic and of a
+
+perfect optic now to calculate this
+
+Trail we take the area that is under
+
+both curves and name it B and then
+
+divide this by the area under the
+
+perfect curve so area a and this
+
+represents the fraction of the light
+
+energy that goes where it should have
+
+gone in an image
+
+since Trail ratio is a fraction its
+
+value is between 0 and 1 and the value
+
+of 1 only applies to an object that
+
+performs at the theoretical limit now
+
+roughly speaking an optic with a trail
+
+ratio value above 0.83 is considered to
+
+be diffraction Limited what this doesn't
+
+mean is that the optic is performing
+
+perfectly in this region it just means
+
+that the dominant factor for reduced
+
+sharpness is because of diffraction for
+
+example because of a limited aperture
+
+and to a lesser degrees due to
+
+imperfections and things like a surface
+
+shape so in a sense the value of 0.83 is
+
+similar to stating that a quarter
+
+overlapped up Peak to Value wavefront
+
+error is diffraction limited because
+
+both these values are kind of arbitrary
+
+definitions of what is meant by
+
+diffraction Limited
+
+so our reference surface turns out to be
+
+very accurate as we can conclude from
+
+both this Trail value as well as from
+
+the peak to Valley wavefront error but
+
+of course that is kind of essential if
+
+you want to use it to measure Optical
+
+quality of other objects in the high end
+
+of the range
+
+the first thing we're going to measure
+
+is the surface shape of this spherical
+
+zero deer mirror it's about 250
+
+millimeters in diameter and it has a
+
+radius of curvature of 350 millimeters I
+
+bought the mirror about 10 years ago on
+
+eBay for around 100 euros the reflective
+
+coating was in pretty bad shape so I
+
+removed it but the remaining surface
+
+reflectivity is four percent which is
+
+ideal in this test setup the mirror
+
+itself is from a 1970s broken Elmer
+
+wafer scanner system and this was the
+
+first commercial photolithographic
+
+system that used non-contact exposure of
+
+silicon Wafers so given its original
+
+application you'd expect this mirror to
+
+be quite accurate
+
+the way we measure this mirror is with
+
+the focus of the reference element in
+
+the center of the radius of curvature of
+
+the mirror so the tightly focused Light
+
+Beam from the interferometer expands and
+
+then reflects off the mirror surface and
+
+then returns along approximately the
+
+same path and is recombined with the
+
+spherical reference wavefront that
+
+reflects off the reference element and
+
+any deviations from spherical in the
+
+mirror surface will cause phase shifts
+
+between the light reflecting of the
+
+mirror surface and the spherical
+
+reference and this can then be observed
+
+as interference
+
+here are a few typical interferograms
+
+that were measured with this mirror
+
+under a slight tilt and even though the
+
+mirror is strongly curved you can
+
+observe that in the measurements it only
+
+covers about half the diameter of the
+
+total measurement area available this
+
+makes our accuracy of measurement much
+
+higher than a 20th of a wavelength
+
+so from the interferograms just
+
+collected the waveform differences
+
+between the mirror surface and that of
+
+the reference element is calculated in
+
+DFD Fringe and you can see that the peak
+
+to Value accuracy of this mirror itself
+
+is around one tenth of a wavelength now
+
+in terms of surface shape accuracy this
+
+means that the mirror never deviates
+
+more than around 30 nanometers of that
+
+of a perfect sphere
+
+anyway being able to measure with this
+
+level of precision is actually pretty
+
+cool and it gave me confidence that the
+
+instrument performs as expected
+
+by the way if you've ever tried to make
+
+a telescope Mirror by hand yourself you
+
+might observe something familiar in the
+
+wavefront plot The Mirror Has a slightly
+
+turned down Edge although this one's
+
+very small around 15 nanometers or so
+
+next on the list of items to test is
+
+this Canon FD 55 millimeter F 1.2 lens
+
+this is a rather famous vintage lens in
+
+the sense that it was actually the first
+
+consumer lens containing an aspherical
+
+element
+
+with its F 1.2 aperture it's very light
+
+sensitive and therefore well suited for
+
+indoor photography without using a flash
+
+the earliest versions of this lens
+
+introduced in 1971 contained radioactive
+
+thorium oxide but this one which was
+
+bought by my father in March of 1980
+
+does not contain thorium therefore it
+
+also does not display the characteristic
+
+radiation Browning observed in
+
+radioactive lenses and on top of that it
+
+has lift in the Box most of it's live so
+
+it's a nearly pristine condition
+
+for testing the waveform deformation in
+
+this lens we utilize a configuration
+
+called Auto collimation which is
+
+schematically depicted here because the
+
+light passes through the lens twice in
+
+this test many aberrations are measured
+
+to be twice as large as they would be
+
+with a single pass so when this
+
+configuration is used it requires us to
+
+interpret The Fringe spacing as
+
+equivalent to only 0.5 wavelength
+
+instead of one wavelength
+
+before I show you the results of the
+
+measurement I should mention that doing
+
+away front measurement on a lens is not
+
+in any way representative for overall
+
+lens performance basically we're testing
+
+with only one particular wavelength of
+
+light on the optical axis with the focus
+
+setting to Infinity so factors like
+
+chromatic aberrations of axis
+
+performance in the image field and at
+
+proximity are not included in this test
+
+I've actually made a video on how to
+
+quantitatively measure all these aspects
+
+using another method and obtain a more
+
+holistic performance but even with all
+
+the limitations I think it's worthwhile
+
+to take a look at the wavefront error
+
+that this lens introduces
+
+so here is the wavefront error of the
+
+lens at its full aperture and as you can
+
+see it's actually pretty large the total
+
+peaked Valley wavefront error is more
+
+than three lobda and the most apparent
+
+errors are spherical aberration and some
+
+astigmatism
+
+the streel ratio is actually quite
+
+disappointing as well
+
+now as a consequence this lens can never
+
+provide High sharpness images at the
+
+maximum aperture
+
+now it's interesting to see what happens
+
+if we limit the aperture of this lens to
+
+let's say F4 and by doing that we'll
+
+lose a lot of light about 90 percent but
+
+this also limits the wavefront error to
+
+the one present in this central part
+
+here so if we do the same wavefront
+
+analysis at F4 suddenly the lens
+
+performs the fraction limited because
+
+reducing aperture to F4 eliminates
+
+almost all of the spherical error and
+
+astigmatism which is present in the
+
+wavefront at full aperture
+
+here's a comparison of the text on a
+
+permanent marker shot with f 1.2 and f4
+
+on an aps-c sensor it's clear that the
+
+three laptop wavefront arrow is
+
+influencing the sharpness and contrast
+
+pretty badly so I guess the only way to
+
+use this lens effectively is to always
+
+set it to a smaller aperture whenever
+
+there's sufficient light available
+
+otherwise you'll end up with very soft
+
+images
+
+the Canon EF 24 to 105 millimeters full
+
+frame zoom lens is next on our list I
+
+just want to take a very brief look at
+
+it mainly because I sometimes use it for
+
+my YouTube videos with its maximum
+
+aperture of f4 over the whole Zoom range
+
+it's not particularly Photon hungry but
+
+it always produces excellent image
+
+sharpness which made me curious about
+
+how small the wavefront errors in a high
+
+quality lens actually are
+
+it was measured in the same way as the F
+
+1.2 lens so in outer collimation and
+
+here are the wavefront errors at the
+
+focal length settings of 24 millimeters
+
+50 millimeters and 105 millimeters the
+
+largest waveform errors are found at 105
+
+millimeters focal distance where this
+
+Trail ratio has dropped to 0.6 which by
+
+the way is still a very decent value for
+
+a lens
+
+in the center of the range its
+
+performance is basically diffraction
+
+limited so concluding this lens performs
+
+well in the full Zoom range that is of
+
+course within all the limitations of the
+
+current testing method
+
+if you made it this far into the video
+
+you're probably more than averagely
+
+interested in Optics so for this last
+
+part I thought I'd present measurements
+
+that I did on microscope objectives all
+
+objectives presented here are so called
+
+Infinity corrected objectives and this
+
+means that they are designed to work in
+
+combination with a so-called tube lens
+
+rather than create an image directly
+
+like is the case with proximity
+
+corrected objectives
+
+since Infinity corrected objectives
+
+basically project their image at
+
+Infinity this allows us to correctly use
+
+the outer collimation configuration for
+
+testing
+
+unlike camera lenses microscope
+
+objectives aren't specified by focal
+
+length and maximal focal distance to
+
+aperture ratio instead they're
+
+characterized by magnification and
+
+numerical aperture and I'll very briefly
+
+discuss these two aspects first
+
+magnification describes the ratio
+
+between the object size and the image
+
+size that a particular microscope
+
+objective is designed for you can of
+
+course try to use it at a different
+
+magnification by changing both the lens
+
+object distance and the lens image
+
+distance but if you do that it will not
+
+perform optimally and this is important
+
+because microscope Optics is required to
+
+work close to the theoretical best
+
+performance
+
+so in this sense a microscope objective
+
+is a bit different from a camera lens
+
+which is basically designed to give you
+
+acceptable image quality over a wide
+
+range of object to lens distances
+
+now specifying a high magnification is
+
+only useful if the sharpness in the
+
+image keeps up with the magnification
+
+that is specified and that is why the
+
+magnification and numerical aperture of
+
+objectives are related because numerical
+
+aperture is a key parameter for
+
+resolving small features
+
+by definition the numerical aperture is
+
+equal to the refractive index of the
+
+medium that contains the object times
+
+the sine of the maximum angle Theta at
+
+which light originating from the object
+
+can be captured this means that
+
+numerical aperture increases with the
+
+refractive index of the medium and with
+
+the value of theta
+
+now since all the objectives I will
+
+discuss today are intended for using air
+
+and not in water or oil we can simplify
+
+things because the refractive index of
+
+air is around one
+
+so for now we can just ignore the
+
+refractive index which means that the
+
+numerical aperture in all cases
+
+discussed here is just equal to the sine
+
+of theta
+
+the exact reason why numerical aperture
+
+is the key parameter for achieving a
+
+high sharpness is quite fascinating but
+
+it's kind of a rabbit hole which I don't
+
+want to dive in now
+
+today I will just show you the formula
+
+so the size of the smallest features
+
+that can theoretically be resolved by a
+
+microscope objective are proportional to
+
+a constant times the wavelength of light
+
+divided by the numerical aperture and
+
+this means that it's possible to resolve
+
+smaller features by either using a
+
+shorter wavelength of light or use a
+
+higher numerical aperture
+
+this relationship explains why
+
+magnification and numerical aperture are
+
+so closely related in the specification
+
+of microscope objectives because
+
+attempting to pair a high magnification
+
+with a low numerical aperture is pretty
+
+useless it will just result in a
+
+magnified image of pore sharpness
+
+let's have a look at the measurements on
+
+this Nikon 10 times objective with a
+
+numerical aperture of 0.3 here is an
+
+image of the wavefront error of this
+
+objective and it shows us that the
+
+errors are in fact very small the
+
+wavefront is accurate within seven
+
+hundredths of a wavelength for the
+
+entire aperture and this Trail is 0.99
+
+which is looking great so the major
+
+contribution of the surface area is
+
+actually a very slight spherical
+
+aberration but all in all it's really a
+
+top quality piece
+
+now let's examine a different objective
+
+like this 20 times Leica flu or tar with
+
+a numerical aperture of 0.5 and do the
+
+same waveform measurement
+
+interestingly the spherical aberration
+
+in this objective is noticeably more
+
+pronounced both the peaked Valley Arrow
+
+as well as a strail ratio is only just
+
+on the good side of the diffraction
+
+limit now it might be tempting to
+
+conclude that this objective is not as
+
+good as the previous one but that's
+
+actually not the case the reason behind
+
+the spherical aberration is in this
+
+particular number that can be found on
+
+the objective the number represents the
+
+optimum coverslip thickness in
+
+millimeters for this objective
+
+so what the manufacturer assumes is that
+
+you're going to use a glass coverslip
+
+when you use your microscope and it has
+
+therefore already compensated the
+
+optical properties for a specific glass
+
+thickness
+
+now you might think huh 0.70 millimeters
+
+of glass thickness how is that ever
+
+going to influence the focus and indeed
+
+with low numerical aperture Optics there
+
+will generally not be a problem however
+
+with increasing numerical aperture even
+
+a gloss plate this thin can introduce a
+
+significant spherical abrasion this is
+
+Illustrated in this Ray tracing figure
+
+for a numerical aperture of 0.7 in a
+
+perfect optic all rays will end in a
+
+single point but add a cover gloss and
+
+certainly the area where the Rays end up
+
+has significant size
+
+now of course the previous waveform
+
+measurement was done without a cover
+
+slip so the question is what happens if
+
+we add a cover slip in the light path I
+
+quickly try this with a gloss thickness
+
+of 0.60 millimeters so quite close to
+
+the optimum value and it resulted in
+
+this measurement it reduced the
+
+spherical aberration quite a bit and so
+
+this is something to realize when you
+
+use a high numerical aperture objective
+
+that it can only perform at its Peak
+
+Performance when used in combination
+
+with the cover slip thickness specified
+
+so a few years ago I bought this
+
+unmarked Nikon 20 times blonde Apple OEM
+
+objective for use in my maskless wafer
+
+stepper these Nikon objectives can be
+
+purchased on eBay for around a hundred
+
+dollars a piece and are widely available
+
+it was in perfect shape when it got here
+
+but when I started using it something
+
+was a bit off depending on how I use it
+
+exactly
+
+now when I published the video on the
+
+Master's waiver stepper people at the
+
+Forum called photo
+
+macrography.net made me aware of the
+
+fact that these particular types of
+
+objectives aren't optically the same as
+
+the corresponding standard Nikon
+
+microscope objectives they're actually
+
+modified versions that are designed for
+
+a different cover slip thickness
+
+the forms that on this subject mentioned
+
+that these perform better when used in
+
+combination with two or three cover
+
+slips and since I now have an
+
+interferometer available let's see if we
+
+can narrow this value down a bit further
+
+here is the spherical aberration of the
+
+objective without a cover slip the
+
+wavefront error is one lobda so without
+
+a correction it will certainly perform
+
+very poorly
+
+and here I summarize the individual
+
+wavefront measurements for zero
+
+one two
+
+three and four cover slips
+
+I think the effect of adding more glass
+
+is pretty clear
+
+now you can see that the wavefront error
+
+sort of flips over between two and three
+
+coverslips of glass thickness
+
+now what we can do is take for example
+
+the peak to Value spherical abrasion
+
+from these measurements and plot the
+
+values as a function of the glass
+
+thickness in a graph and by fitting a
+
+line through these data we find that a
+
+minimum aberration is found at around
+
+0.42 or 0.43 millimeters and this
+
+thickness is right between two and three
+
+copper slips like was stated on the
+
+Forum here is a similar graph that I
+
+made for the maximum still ratio which
+
+actually yields exactly the same outcome
+
+so if we were to add 0.42 millimeters of
+
+glass sheet when using it we can
+
+effectively get rid of the huge
+
+spherical aberration completely and use
+
+this objective at its maximum
+
+performance level again
+
+okay we finally come to the end of the
+
+video I hope I gave you some ideas of
+
+how interferometry can be used for
+
+optical testing anyway thanks for
+
+watching
+
+foreign
+
+[Music]
+

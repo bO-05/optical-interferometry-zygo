@@ -1,0 +1,1414 @@
+hey everyone today I want to talk about
+
+Optical interferometry a method that is
+
+frequently used to measure the
+
+properties of optical components and
+
+systems
+
+what initially made me want to do a
+
+video about this subject is this zygo
+
+interferometer that I bought a while ago
+
+secondhand
+
+a new instrument of this type is
+
+financially far out of my reach and I
+
+must admit that this one wasn't a
+
+bargain either but the thing is I wanted
+
+to own a high quality interferometer for
+
+a long time if only to get away from the
+
+do-it-yourself setups that I've used so
+
+far and since these instruments are not
+
+abundantly available secondhand I just
+
+had to take this rare opportunity to buy
+
+one
+
+in case you have no idea what this
+
+instrument is with it you can very
+
+accurately measure the shape of flat and
+
+spherical Optical interfaces like the
+
+ones you find on lenses and mirrors and
+
+with accurately I mean in the nanometer
+
+range
+
+but not only that you can also measure
+
+the performance of complete Optical
+
+systems so a good interferometer is an
+
+indispensable tool for anyone involved
+
+in Optical fabrication because in the
+
+end the quality of your Optics is mainly
+
+limited by the quality of your testing
+
+methods
+
+this particular instrument was produced
+
+by zygo in August of 1996 it was sold to
+
+Philips Electronics in Eindhoven where
+
+it was used to check the surface shape
+
+of lenses of special Optical disk drives
+
+from what I understood some of these
+
+lenses were produced from small polished
+
+glass balls and these were cut in pieces
+
+and then transformed into very short
+
+focal distance lenses now at some point
+
+the activity was transferred to a
+
+Phillips spin-off called anterion and
+
+the interferometer was sold to an
+
+employee who basically stored it for a
+
+couple of years he then sold it to me
+
+together with a black and white Monitor
+
+and the transmission sphere that was
+
+used to test the lenses
+
+in this video I'll first discuss the
+
+principle behind interferometry and then
+
+we'll take a look at the layout of the
+
+instrument and how it works exactly and
+
+in an upcoming video I'll show you how I
+
+pimped the instrument a bit with a
+
+modern CCD camera
+
+as I said earlier in Optics manufacturer
+
+interferometry is a frequently used
+
+method to characterize both Optical
+
+surfaces as well as complete systems and
+
+the method is based on analyzing
+
+interference patterns and extract
+
+so-called wavefront information from
+
+them and I will discuss the meaning of
+
+the word wavefront in a second
+
+interferometry is an extremely sensitive
+
+and accurate method that can be used to
+
+establish the general shape of an
+
+interface but also things like waviness
+
+or even surface roughness it does also
+
+have some limitations the measurement
+
+ranges generally fairly limited to
+
+several microns also it's unsuitable for
+
+interfaces that contain sharp step-like
+
+height features because these cannot be
+
+unambiguously identified and so in
+
+general interferometry is most accurate
+
+when the surfaces we want to test are
+
+fairly smooth
+
+now I just mentioned the word wavefront
+
+which I think is not a trivial concept I
+
+guess we've all experienced wavefronts
+
+at some points in our lives but I'm not
+
+referring to those in Optics away from
+
+this actually a continuous set of points
+
+that have identical phase so what does
+
+that mean well from a classical
+
+Viewpoint light is an electromagnetic
+
+wave that harmonically oscillates and
+
+propagates in space and at any given
+
+point in this process the electric and
+
+magnetic field components can be
+
+described by the Maxwell equations so
+
+here I've tried to schematically draw
+
+the electromagnetic field in a somewhat
+
+larger volume and if you examine the
+
+phase of these waves you can identify
+
+planes where the face of the
+
+electromagnetic field is identical and
+
+the continuous set of points that have
+
+the same phase value is called away
+
+front
+
+one property of a wavefront is that its
+
+shape is always transverse or
+
+perpendicular to the local direction of
+
+wave propagation here this is
+
+Illustrated for a few differently shaped
+
+wavefronts where the arrows indicate the
+
+direction of wave propagation now in
+
+general phase relationships for
+
+different points in space are only well
+
+defined when the waves have one specific
+
+wavelength and if we want to do
+
+interferometry it's vital that the light
+
+we use is of one particular wavelength
+
+which is also called monochromatic light
+
+and in the rest of this video I'll
+
+assume that the light used is more or
+
+less monochromatic
+
+a frequently used way to generate
+
+monochromatic radiation is by means of a
+
+laser and this is because the process of
+
+stimulated emission which takes place in
+
+the laser cavity favors the generation
+
+of light in a very narrow wavelength
+
+range also the wavefront exiting the
+
+laser cavity is virtually flat over the
+
+aperture and because the light has an
+
+extremely well defined wavelength in
+
+other words it has a very narrow
+
+spectral bandwidth phase relationships
+
+in the field exiting the laser can be
+
+preserved over long distances
+
+another way to say this is that lasers
+
+have a long coherence length which is
+
+generally between half a meter up to
+
+several kilometers for certain special
+
+types of lasers
+
+in practice this means that if we take
+
+two points A and B in the light path and
+
+we look at the variations in the phase
+
+difference between the two points we
+
+will find that these will be relatively
+
+small and the distance over which
+
+variations in Phase remain acceptable is
+
+called the coherence length as you can
+
+see from this equation the coherence
+
+length LC is inversely proportional to
+
+the spectral bandwidth Delta Nu of the
+
+light source and so light sources with a
+
+very narrow emission line will generally
+
+have a long coherence length
+
+another source of monochromatic light
+
+frequently used in interferometry is the
+
+low pressure sodium lamp which mainly
+
+generates light in a narrow emission
+
+band at 589 nanometers however the
+
+spectral bandwidth of the sodium
+
+emission line is much broader than that
+
+of lasers and the phase relationships
+
+generally only hold over distances
+
+smaller than a millimeter
+
+now measuring the shape of a waveform
+
+directly in the visible part of the
+
+electromagnetic spectrum is not easy and
+
+that is because of the high frequencies
+
+involved for electromagnetic radiation
+
+of longer wavelengths like for example
+
+radio waves we can measure the phase of
+
+the alternating Fields directly and that
+
+is because the oscillations have
+
+relatively low frequency say generally
+
+somewhere in the mega or gigahertz range
+
+and so we can point a bunch of antennas
+
+to the sky measure the electromagnetic
+
+signals that are received in each of
+
+them and then establish the shape of the
+
+wavefront for a particular frequency by
+
+looking for phase correlations and based
+
+on this information we can identify the
+
+exact direction from which the radiation
+
+is emitted
+
+but the visible light has a frequency
+
+more than a thousand times higher than
+
+even the highest frequency radio waves
+
+and for frequencies this high it's
+
+technically infeasible to measure phase
+
+directly for an oscillating
+
+electromagnetic field
+
+however what we can easily measure with
+
+Optical detectors like CCD or CMOS
+
+sensors is spatial intensity variations
+
+and that is where interferometry comes
+
+in instead of trying to measure the
+
+phase in light directly this method
+
+works by studying the interference
+
+patterns resulting from the addition of
+
+a second wavefront that has a known
+
+shape
+
+let me start by showing you a very
+
+simple example of how this works in
+
+light
+
+for this experiment we need a
+
+monochromatic light source and a flat
+
+surface as a light source we'll use a
+
+sodium lamp and for the surface we'll
+
+use a flat Optical test glass
+
+now a typical air gloss interface
+
+reflects about four percent of the
+
+incident light and with a uniform light
+
+source we observe a uniform reflection
+
+let's now place two differently shaped
+
+surfaces on top of this reference
+
+surface for evaluation and what we now
+
+observe is that these objects show two
+
+different interference patterns the part
+
+of the left shows straight lines with
+
+equal spacing and I wanted to write this
+
+place these curved lines or circular
+
+fringes depending on the exact surface
+
+orientation now it's these intensity
+
+variations that actually contain
+
+detailed information about the
+
+difference in shape between the
+
+reference surface and the two surfaces
+
+under tests and we just need to know how
+
+to interpret what we see exactly
+
+so what do we see well let me explain
+
+with an animation I admit the following
+
+is a simplification and it's not
+
+correctly visualizing the physics but
+
+it's actually quite illustrative here is
+
+away from that has just reflected off a
+
+flat reference surface so this wavefront
+
+is basically also flat and so the image
+
+shows a 2d cross-section of the flat
+
+Optical wavefront
+
+now we place a sensor in the path of the
+
+light we can measure the intensity and
+
+what we observe is that it's basically
+
+the same everywhere and this tells us
+
+exactly nothing about the shape of the
+
+wavefront
+
+now let's add a second wavefront that
+
+has reflected of a second surface that
+
+is slightly tilted in this example the
+
+wavefront is also flat and what we
+
+observe is that the intensity now
+
+becomes non-uniform and this is caused
+
+by constructive and destructive
+
+interference between the two reflected
+
+wavefronts at the second interface here
+
+the electromagnetic field is the linear
+
+sum of the contributions of the fields
+
+of the two wavefronts and so in some
+
+points where these contributions are
+
+always in Phase they add up on the other
+
+hand in places where the two are exactly
+
+out of phase the field contributions
+
+cancel each other out and if they are of
+
+equal amplitude effectively the
+
+resulting field becomes zero
+
+in the case of two flat wavefronts we
+
+will observe linear and equally spaced
+
+fringes and the density of the
+
+interference pattern itself is dependent
+
+on the wedge or angle between the two
+
+surfaces and the position of the fringes
+
+is dependent on the distance between the
+
+two surfaces now you might think that
+
+linear and equally spaced fringes are
+
+indicative for the presence of two flat
+
+surfaces and that's partly correct but
+
+two curved wavefronts with exactly the
+
+same radius of curvature will actually
+
+also display linear and equally spaced
+
+fringes when displays are tilted
+
+however when two waveforms have
+
+different radii this results in curve
+
+fringes and this is for example the case
+
+when we have a flat and a spherical
+
+wavefront interfering or when we have
+
+two spherical waveforms that have a
+
+different radius of curvature so I guess
+
+it's important to realize that the
+
+observed interference pattern only gives
+
+us information about differences in
+
+wavefront shape
+
+the example just shown with the Sodium
+
+lamp we only observe interference
+
+between the interfaces when they're
+
+placed very close together and that is
+
+because of the limited coherence length
+
+of the light so whether we can see a
+
+clear interference pattern is dependent
+
+on whether stable phase relationships
+
+exists between the reflections coming
+
+off the two surfaces at the point where
+
+they start interfering and this means
+
+that with a coherence length smaller
+
+than a millimeter the surfaces need to
+
+be quite close to each other in order to
+
+observe interference fringes
+
+now I just stated that in constructive
+
+interference the electromagnetic fields
+
+add up and in destructive interference
+
+the two contributions cancel each other
+
+out so what does this mean for intensity
+
+well light intensity is equivalent to
+
+the power per unit of surface and so
+
+it's actually not the same thing as the
+
+magnitude of the electronic field in
+
+fact intensity scales with the square of
+
+this field and so if we have two
+
+reflections of equal magnitude say both
+
+are four percent this means that for the
+
+location of constructive interference
+
+the intensity could be four times as
+
+high and that is actually what is
+
+generally observed in interference
+
+patterns that the intensity in the
+
+bright areas is much brighter than the
+
+sum of the two individual intensities
+
+but of course if we look on average the
+
+intensity over the whole area will still
+
+be equal to the sum of the two
+
+individual intensities
+
+anyway enough background let's return to
+
+the zygote interferometer itself and
+
+take a peek under the hood to see what's
+
+going on inside
+
+in order to do that we need to remove
+
+two different Lids the outer one is made
+
+of plastic and it's basically just
+
+cosmetic and the second one is made out
+
+of aluminum sheet metal and it is
+
+intended as RF shielding for the
+
+electronics inside
+
+the first thing you notice is that it
+
+isn't awfully full inside there is a
+
+helium neon laser with its high voltage
+
+power supply then there are a few
+
+Optical components like a steering
+
+mirror for a laser beam a variable
+
+filter that can be moved mechanically
+
+using a rod and this Rod also operates a
+
+switch that activates either of two PCB
+
+cameras that can also be found in this
+
+top part of the interferometer
+
+and the cameras by the way have CCD
+
+chips of about four by six millimeter in
+
+size and are fairly low resolution
+
+now both cameras have lenses mounted in
+
+front of them and one of the cameras is
+
+above a tiny beam splitter and the other
+
+one is above a diffuser with a Crosshair
+
+printed on it
+
+in the bottom compartment behind the lid
+
+here we find the mains 12 volt DC power
+
+supply a large beam splitter a mirror
+
+under 45 degrees and a four inch
+
+collimation lens and apart from a few
+
+brackets and mounts that hold the Optics
+
+together that is basically it
+
+so you might wonder why was this thing
+
+the price of a luxury car back in 1996
+
+well apart from I suspect a healthy
+
+profit margin there are several reasons
+
+of course it's not really a mass
+
+manufactured item but another reason is
+
+that every component inside appears to
+
+be of very high quality take for example
+
+the helium neon laser according to the
+
+label the tube has been specifically
+
+selected for this type of instrument why
+
+well if we look at the specification of
+
+the coherence length of the
+
+interferometer we see that it's larger
+
+than 100 meters this means that the
+
+wavelength variations in the laser light
+
+need to be extremely low so that the
+
+phase relationships hold over distances
+
+of more than 100 meters now I calculated
+
+what this means in terms of frequency
+
+stability and found that variations in
+
+the frequency of the light cannot be
+
+more than 2 times 10 to the minus seven
+
+percent and so this means that not just
+
+any random laser will do
+
+so let me take you through the
+
+functionality of all the optical
+
+components step by step using schematics
+
+here is the helium mule laser which
+
+outputs a highly coherent beam of light
+
+and the direction of the beam can be
+
+optimized with this small steering
+
+mirror after which the beam goes through
+
+a variable attenuation filter now this
+
+filter allows for adjustment of the
+
+general brightness of the laser beam and
+
+after having passed the attenuation
+
+filter the beam is going into a gradient
+
+index lens which is connected to a very
+
+small beam splitter
+
+now a gradient index lens is a small
+
+glass rod that contains a gradient in
+
+refractive index that runs from the
+
+center to the edge of the rod and since
+
+the refractive index has the highest
+
+value in the center the optical
+
+wavefront in the laser beam is gradually
+
+delayed more towards the center of the
+
+rod and the waveform therefore becomes
+
+curved which effectively results in
+
+focusing of the light into a tight focal
+
+point and after passing this focal point
+
+the beam expands again into a nicely
+
+spherical wavefront
+
+a small beam splitter sends the
+
+spherical waveform into the partially
+
+reflective surface of a second much
+
+larger beam splitter and this surface
+
+reflects the light towards a collimation
+
+lens where the light exits the
+
+instrument
+
+the function of the collimation lens is
+
+to convert the spherical wavefront into
+
+a flat wavefront of four inches in
+
+diameter and this flat waveform can
+
+serve as the basis for all kinds of
+
+interferometric tests for example we can
+
+place two partially reflective flat
+
+interfaces into this output beam one
+
+being the reference interface and one
+
+being the interface that we'd like to
+
+test for flatness and due to the large
+
+coherence length of the light more than
+
+100 meters these interfaces don't have
+
+to be necessarily very close together
+
+the light reflecting of these surfaces
+
+is directed back into the interferometer
+
+approximately along the same path as it
+
+came from goes through a small beam
+
+splitter again and then is collimated
+
+and projected on the CCD chip and this
+
+allows us to observe the interference
+
+pattern between the two Reflections and
+
+evaluate this visually on the monitor
+
+now to steer the light off both the
+
+reference and test surface exactly back
+
+through the tiny beam splitter here is
+
+pretty hard and you don't see anything
+
+with camera one until things are almost
+
+perfectly aligned so to make life a lot
+
+easier the people at zygo edit this
+
+alignment functionality to the system
+
+part of the light from the reflections
+
+can pass this larger beam splitter and
+
+this part continues straight on it's
+
+reflected at 90 degrees angle and then
+
+reaches the glass diffuser plate that
+
+contains a Crosshair pattern
+
+because this diffuser plate is exactly
+
+at the focal distance of the collimation
+
+lens the reflections create tiny spots
+
+here and their positions can be observed
+
+by camera 2 that is only intended for
+
+alignment purposes now this alignment
+
+unit has a much larger field of view and
+
+what we can do now is simply align the
+
+position of the surface reflection such
+
+that they are at the center of the
+
+Crosshair and when that's the case the
+
+system is also automatically aligned on
+
+camera one we can immediately observe an
+
+interferogram
+
+now the interferometers that I made
+
+myself did not have this kind of feature
+
+and I must admit that this really makes
+
+aligning Optics a piece of cake
+
+here you see the location of the
+
+collimation lens viewed from the outside
+
+of the instrument in front of it is an
+
+adjustment mechanism that is intended
+
+for mounting various reference surfaces
+
+to the interferometer directly like for
+
+example the f.7 D5 transmission sphere
+
+that came with interferometer
+
+the adjustment mechanism has two degrees
+
+of freedom which are tip and tilt and
+
+this allows the angle of the
+
+transmission reference to be oriented
+
+with respect to the surface under test
+
+so when testing Optical components you
+
+generally test the surface shape before
+
+the interfaces get coated and so in the
+
+case of glosses means that they reflect
+
+around four percent of the incident
+
+light
+
+so the transmission reference also needs
+
+to reflect around four percent back into
+
+the interferometer to get high contrast
+
+fringes
+
+not to test spherical surfaces you need
+
+a spherical reference surface that
+
+somehow reflects four percent of the
+
+light exiting the infrometer right back
+
+into the instrument
+
+here I've drawn a schematic of the
+
+inside of a transmission sphere assembly
+
+to show you how that is achieved
+
+the reference surface is the last
+
+interface of the assembly here indicated
+
+in yellow and all the other surfaces are
+
+anti-reflection coated for the laser
+
+wavelength
+
+but even more importantly they're also
+
+designed in such a way that the Light
+
+reaches the reference interface exactly
+
+perpendicular and this means that it's
+
+the only interface in the transmission
+
+sphere that sends a reflection back
+
+where it came from and then enters the
+
+interferometer as a collimated beam and
+
+of course
+
+96 of the light continues onto the
+
+surface under test which also reflects
+
+around four percent and so we observe
+
+the interference occurring between these
+
+two interfaces
+
+with a spherical transmission reference
+
+we can test convex as well as concave
+
+optics for convex Optics only radii is
+
+smaller than the radius of the
+
+transmission sphere itself can be tested
+
+and for concave Optics the only
+
+limitation for the radius to be tested
+
+is that it should be less than half of
+
+the maximum coherence length of the
+
+light source that we use which is in
+
+this case 50 meters
+
+now I want to save most of the
+
+experiments that I had in mind for
+
+another video but let's just do one
+
+simple experiment for this test we'll
+
+just use the flat wavefront exiting the
+
+instrument and what we'll try to measure
+
+is the difference in shape between the
+
+two surfaces of a zero to your test
+
+Clause this test class has one side
+
+which I know is very flat around 120th
+
+of a wavelength and this is going to be
+
+our reference interface but the other
+
+side is somewhat less flat and what
+
+we'll try to find out is how much that
+
+is
+
+the two interfaces are spaced 20
+
+millimeters apart and both reflect
+
+around four percent of the incident
+
+light so we can just place the disc in
+
+the beam exiting the interferometer
+
+align the position of the two
+
+Reflections simultaneously and then look
+
+at the interference pattern and this is
+
+what it looks like as you can see we get
+
+a nice and clear interference pattern
+
+which by the way is extremely stable
+
+with no effects of vibrations from the
+
+environment and that is because the two
+
+surfaces are basically mechanically
+
+connected to each other by a solid piece
+
+of zero Doer
+
+now the small circular spots are just
+
+dust particles in the optical path and
+
+these are not important for our
+
+evaluation
+
+all the information about the different
+
+in shape and orientation between the two
+
+surfaces is contained in the four more
+
+or less vertical fringes and because we
+
+know that one side is almost perfectly
+
+flat any curvature in The Fringe pattern
+
+is a result of non-flatness of the
+
+second interface
+
+so let's try to evaluate this pattern
+
+visually the most obvious feature is of
+
+course the presence of the four vertical
+
+fringes that indicate that there is a
+
+wedge between the two interfaces in the
+
+horizontal Direction and we can evaluate
+
+how large this wedge is based on the
+
+number of fringes it's a little over
+
+four lobda wavefront meaning that there
+
+is a wedge half of that between the two
+
+surfaces so just two wavelengths y half
+
+well that is because in reflection any
+
+deviations in surface shape lead to
+
+twice the deviation in the wave front
+
+shape and so deviations in the surface
+
+shape are only half of that observed in
+
+the wavefront
+
+now since the wavelength of the laser is
+
+633 nanometers and the wedge is two
+
+lobbed up between the two surfaces this
+
+would mean a gradient in distance of
+
+approximately 1.3 microns but there is a
+
+little catch in this case because we are
+
+comparing two surfaces with zero during
+
+between them we should actually use the
+
+wavelength in this material which means
+
+that we should divide the wavelength in
+
+air or vacuum by the refractive index of
+
+zero deer which is 1.54
+
+so this means that the wedge is actually
+
+only 840 nanometers but which side is
+
+thicker it's actually quite hard to tell
+
+as for which we would see the same type
+
+of interference pattern in either case
+
+so at this point we just don't know
+
+okay let's for a moment focus on the
+
+curvature of the fringes now which
+
+indicates a difference in the radius
+
+between the two surfaces and if we look
+
+at how much the curvature in the fringes
+
+deviates from straight lines we see that
+
+it's largest here in the center it's
+
+about 0.4 times The Fringe spacing which
+
+translates to 0.4 wavelengths of height
+
+difference between the edge and the
+
+center of the disc
+
+for the surface error which again is
+
+half of that we find 0.2 wavelengths now
+
+since we also need to use the wavelength
+
+inside zero do here this means that the
+
+surface curvature is 0.2 times the
+
+wavelength divided by the refractive
+
+index which results in a value of 82
+
+nanometers
+
+but in which direction is the curve is
+
+the surface under test 82 nanometers
+
+concave or convex as for the direction
+
+of the wedge there is no easy way to
+
+tell so now we end up with these four
+
+configurations of which only one can be
+
+correct
+
+with a little logic though you could at
+
+this point already discard two of these
+
+as infeasible but of course you want to
+
+know exactly which configuration of the
+
+four is correct right
+
+so if that's indeed the case figure it
+
+out yourself you just need two more
+
+pieces of information here is a first
+
+hint if I press my finger against the
+
+back side of the disk so the service and
+
+the test we can observe that the
+
+interferogram changes due to the
+
+temperature increase of the material by
+
+the heat of my finger locally it's only
+
+a few degrees Celsius higher but the
+
+effect is very noticeable because we are
+
+measuring in the nanometer range
+
+now the second piece of information you
+
+need is about the expansion coefficient
+
+of the material as you can see from the
+
+specifications of zero zero it can be
+
+either positive or negative
+
+but this piece of 02 has a positive
+
+coefficient of thermal expansion which
+
+means it expands with temperature
+
+increase and with these two additional
+
+pieces of information it's possible to
+
+tell which of these four options is
+
+correct now the first person to make a
+
+comment with the correct answer and of
+
+course why owns the pinned comment
+
+okay so the letter was a very brief
+
+explanation of how you can evaluate
+
+interferograms visually and the above
+
+example was actually relatively easy
+
+imagine your interferogram looks
+
+something like this or this in these
+
+cases it would be quite a bit more
+
+challenging to make accurate statements
+
+about the exact surface shape
+
+and this is why in the next video about
+
+the subject I have replaced the current
+
+analog camera with a high resolution IP
+
+camera and this allows for a very
+
+detailed evaluation of the
+
+interferograms using software
+
+with the help of this software we can
+
+measure wedges angles surface curvature
+
+and even the effect of warm fingers very
+
+accurately also we'll take a look at how
+
+to measure the shape of various Optical
+
+surfaces and the quality of lens
+
+assemblies so hopefully I'll see you in
+
+the next video again
+
+[Music]
+
+thank you
+
+[Music]
+
+bye bye
+

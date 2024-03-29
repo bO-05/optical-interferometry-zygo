@@ -1,0 +1,63 @@
+import { Callout, Steps, Step } from "nextra-theme-docs";
+
+# Testing Optical Surfaces
+
+In this section, we'll demonstrate how to use the Zygo interferometer to measure the surface shape of a high-quality concave wafer scanner mirror. This mirror, manufactured in the 1970s, was originally part of an Elmo wafer scanner system—the first commercial photolithographic system that used non-contact exposure of silicon wafers.
+
+## Preparing the Mirror
+
+Before testing the mirror, we need to ensure that it has the appropriate reflectivity for our interferometer. The mirror should reflect approximately 4% of the incident light, which is ideal for this test setup. In this case, the mirror's reflective coating was in poor condition, so it was removed, leaving the surface with the desired reflectivity.
+
+<Callout>
+The mirror is about 250 millimeters in diameter and has a radius of curvature of 350 millimeters.
+</Callout>
+
+## Setting Up the Measurement
+
+To measure the mirror's surface shape, we'll use the following setup:
+
+<Steps>
+### Step 1
+
+Place the focus of the reference element at the center of the mirror's radius of curvature.
+
+### Step 2
+
+The tightly focused light beam from the interferometer expands and reflects off the mirror surface, then returns along approximately the same path and recombines with the spherical reference wavefront that reflects off the reference element.
+
+### Step 3
+
+Any deviations from the spherical shape in the mirror surface will cause phase shifts between the light reflecting off the mirror surface and the spherical reference, which can be observed as interference patterns.
+</Steps>
+
+## Analyzing the Interferograms
+
+Here are a few typical interferograms measured with this mirror under a slight tilt:
+
+![Interferogram 1](/images/interferogram1.png)
+![Interferogram 2](/images/interferogram2.png)
+
+Even though the mirror is strongly curved, you can observe that it only covers about half the diameter of the total measurement area available in the interferograms. This makes our measurement accuracy much higher than 1/20th of a wavelength.
+
+## Calculating the Wavefront Differences
+
+Using the collected interferograms, the wavefront differences between the mirror surface and the reference element are calculated in DFT Fringe. The results show that the mirror's peak-to-valley accuracy is around 1/10th of a wavelength.
+
+In terms of surface shape accuracy, this means that the mirror never deviates more than around 30 nanometers from that of a perfect sphere.
+
+$SurfaceAccuracy = \frac{1}{10} \times \lambda$
+
+where $\lambda$ is the wavelength of the light used in the interferometer.
+
+<Callout>
+Being able to measure with this level of precision is pretty cool and gives us confidence that the instrument performs as expected.
+</Callout>
+
+## Observing a Familiar Pattern
+
+If you've ever tried to make a telescope mirror by hand, you might observe something familiar in the wavefront plot: the mirror has a slightly turned-down edge, although it's very small (around 15 nanometers or so).
+
+To learn more about testing other optical components, check out the following sections:
+
+- [Testing Camera Lenses](/optical-interferometry-part-2/testing-camera-lenses)
+- [Testing Microscope Objectives](/optical-interferometry-part-2/testing-microscope-objectives)
